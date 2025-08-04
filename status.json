@@ -1,0 +1,29 @@
+[
+  {
+    "server": "13.203.201.10:9100",
+    "metrics": {
+      "CPU": 0.0,
+      "RAM": 0.0,
+      "DISK": 0.0
+    },
+    "anomalies": []
+  },
+  {
+    "server": "13.232.245.219:9100",
+    "metrics": {
+      "CPU": 0.0,
+      "RAM": 0.0,
+      "DISK": 0.0
+    },
+    "anomalies": []
+  },
+  {
+    "server": "65.0.74.17:9100",
+    "metrics": {
+      "CPU": 0.0,
+      "RAM": 0.0,
+      "DISK": 0.0
+    },
+    "anomalies": []
+  }
+]

@@ -1,0 +1,615 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Cloud Monitoring Dashboard</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/three@0.132.2/build/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/papaparse@5.3.2/papaparse.min.js"></script>
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Roboto', Arial, sans-serif;
+            background: linear-gradient(120deg, #f8e1f4 0%, #b5eaff 40%, #e0c3fc 80%, #fffde4 100%);
+            color: #222;
+            min-height: 100vh;
+            position: relative;
+        }
+        .cloud-bg {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100vw;
+            height: 100vh;
+            z-index: 0;
+            pointer-events: none;
+            opacity: 0.18;
+            animation: floatClouds 16s linear infinite alternate;
+        }
+        @keyframes floatClouds {
+            0% { transform: translateY(0); }
+            100% { transform: translateY(-20px); }
+        }
+        .main-grid, .header, .top-bar, .notification {
+            position: relative;
+            z-index: 1;
+        }
+        .header {
+            background: linear-gradient(90deg, #a259ff 0%, #4f8cff 100%);
+            box-shadow: 0 8px 32px 0 rgba(80,80,120,0.18), 0 2px 8px 0 #a259ff33;
+            display: flex;
+            align-items: center;
+            gap: 18px;
+            padding: 32px 48px 24px 48px;
+            border-radius: 36px 36px 0 0;
+            backdrop-filter: blur(12px);
+            position: relative;
+            overflow: visible;
+        }
+        .header .cloud-icon {
+            font-size: 2.6rem;
+            color: #fff;
+            text-shadow: 0 2px 12px #6c47ff88, 0 0px 2px #fff;
+        }
+        .header-title {
+            font-size: 2.4rem;
+            font-weight: 800;
+            color: #fff;
+            letter-spacing: 1.5px;
+            text-shadow: 0 2px 16px #4f8cff88, 0 1px 2px #fff;
+            position: relative;
+            z-index: 1;
+        }
+        .header-title::after {
+            content: '';
+            display: block;
+            width: 60%;
+            height: 6px;
+            margin: 8px auto 0 auto;
+            border-radius: 8px;
+            background: linear-gradient(90deg, #fffde4 0%, #a259ff 60%, #4f8cff 100%);
+            box-shadow: 0 0 16px 4px #a259ff44;
+            animation: glowBar 2.5s linear infinite alternate;
+        }
+        @keyframes glowBar {
+            0% { box-shadow: 0 0 16px 4px #a259ff44; }
+            100% { box-shadow: 0 0 32px 8px #4f8cff66; }
+        }
+        .top-bar {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            background: rgba(255,255,255,0.6);
+            padding: 16px 40px;
+            border-bottom: 1px solid #ececff;
+            border-radius: 0 0 24px 24px;
+            box-shadow: 0 2px 16px 0 rgba(80,80,120,0.07);
+            backdrop-filter: blur(8px);
+        }
+        .last-updated {
+            color: #888;
+            font-size: 1.1rem;
+        }
+        .refresh-btn {
+            background: linear-gradient(90deg, #a259ff 0%, #4f8cff 100%);
+            color: #fff;
+            border: none;
+            border-radius: 16px;
+            padding: 12px 32px;
+            font-size: 1.1rem;
+            cursor: pointer;
+            font-weight: 500;
+            box-shadow: 0 2px 16px 0 rgba(162,89,255,0.10);
+            transition: box-shadow 0.2s, background 0.2s;
+            outline: none;
+        }
+        .refresh-btn:hover {
+            box-shadow: 0 0 16px 4px #a259ff55, 0 2px 16px 0 rgba(162,89,255,0.10);
+            background: linear-gradient(90deg, #4f8cff 0%, #a259ff 100%);
+        }
+        .main-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 40px 36px;
+            max-width: 1200px;
+            margin: 48px auto 32px auto;
+            padding: 0 24px;
+            border-radius: 32px;
+            border: 2px solid transparent;
+            background: rgba(255,255,255,0.25);
+            box-shadow: 0 8px 40px 0 rgba(162,89,255,0.10);
+            backdrop-filter: blur(12px);
+            animation: borderGlow 6s linear infinite alternate;
+        }
+        @keyframes borderGlow {
+            0% { border-color: #a259ff44; }
+            100% { border-color: #4f8cff44; }
+        }
+        .card {
+            background: rgba(255,255,255,0.7);
+            border-radius: 28px;
+            box-shadow: 0 4px 32px 0 rgba(80,80,120,0.13);
+            padding: 36px 32px 32px 32px;
+            display: flex;
+            flex-direction: column;
+            min-width: 0;
+            margin-bottom: 0;
+            backdrop-filter: blur(10px);
+            border: 1.5px solid #ececff88;
+        }
+        .card h2 {
+            margin: 0 0 18px 0;
+            color: #6c47ff;
+            font-size: 1.25rem;
+            font-weight: 700;
+            letter-spacing: 0.5px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        .card h2.system-health-title::before { content: '🖥️'; }
+        .card h2.anomalies-title::before { content: '⚠️'; }
+        .card h2.metrics-title::before { content: '📊'; }
+        .card h2.healing-history-title::before { content: '🩺'; }
+        .system-health-table th, .system-health-table td {
+            padding: 12px 14px;
+            text-align: left;
+            font-size: 1.08rem;
+        }
+        .system-health-table th {
+            background: #f0f0fa;
+            border-radius: 12px 12px 0 0;
+        }
+        .system-health-table tr {
+            border-bottom: 1px solid #f0f0fa;
+        }
+        .status-badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 7px;
+            font-weight: 600;
+            font-size: 1.05rem;
+            padding: 4px 12px;
+            border-radius: 12px;
+        }
+        .badge-healthy {
+            background: #e8f5e9;
+            color: #388e3c;
+        }
+        .badge-anomaly {
+            background: #ffebee;
+            color: #c62828;
+        }
+        .badge-warning {
+            background: #fffde7;
+            color: #f9a825;
+        }
+        .anomalies-list {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+            max-height: 220px;
+            overflow-y: auto;
+        }
+        .anomalies-list li {
+            background: #f7f7fd;
+            border-radius: 16px;
+            margin-bottom: 10px;
+            padding: 12px 18px;
+            color: #b00020;
+            font-size: 1.08rem;
+            box-shadow: 0 2px 8px 0 rgba(162,89,255,0.06);
+        }
+        .healing-history-table {
+            font-size: 0.95rem;
+            table-layout: fixed;
+        }
+        .healing-history-table th, .healing-history-table td {
+            padding: 6px 6px;
+            text-align: left;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            max-width: 110px;
+        }
+        .healing-history-table th {
+            background: #f0f0fa;
+        }
+        .healing-history-table td {
+            cursor: pointer;
+        }
+        .healing-history-table tbody {
+            display: block;
+            max-height: 220px;
+            overflow-y: auto;
+        }
+        .healing-history-table thead, .healing-history-table tbody tr {
+            display: table;
+            width: 100%;
+            table-layout: fixed;
+        }
+        .healing-history-table tbody tr {
+            border-bottom: 1px solid #f0f0fa;
+        }
+        .metrics-card canvas {
+            width: 100% !important;
+            height: 180px !important;
+            border-radius: 16px;
+            background: rgba(255,255,255,0.5);
+            box-shadow: 0 2px 12px 0 rgba(108,71,255,0.07);
+        }
+        .server3d-container {
+            width: 100%;
+            height: 180px;
+        }
+        @media (max-width: 900px) {
+            .main-grid {
+                grid-template-columns: 1fr;
+                gap: 32px;
+            }
+            .header, .top-bar { padding: 14px 8px; }
+        }
+    </style>
+</head>
+<body>
+    <div class="cloud-bg">
+      <svg width="100%" height="100%" viewBox="0 0 1440 600" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <ellipse cx="300" cy="120" rx="180" ry="60" fill="#fff"/>
+        <ellipse cx="500" cy="180" rx="120" ry="40" fill="#fff"/>
+        <ellipse cx="900" cy="100" rx="200" ry="70" fill="#fff"/>
+        <ellipse cx="1200" cy="200" rx="160" ry="50" fill="#fff"/>
+        <ellipse cx="700" cy="300" rx="250" ry="80" fill="#fff"/>
+        <!-- Cute stars overlay -->
+        <circle cx="200" cy="80" r="3" fill="#ffe066"/>
+        <circle cx="800" cy="60" r="2.5" fill="#ffe066"/>
+        <circle cx="1300" cy="150" r="2" fill="#ffe066"/>
+        <circle cx="600" cy="250" r="2.5" fill="#ffe066"/>
+        <circle cx="1000" cy="320" r="2" fill="#ffe066"/>
+      </svg>
+    </div>
+    <div class="header">
+        <span class="cloud-icon" style="display:flex;align-items:center;">
+            <svg width="38" height="38" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg" style="vertical-align:middle;">
+                <polygon points="7,41 25,7 41,41 33.5,41 25,24 16.5,41" fill="#0078D4"/>
+                <polygon points="25,7 41,41 33.5,41 25,24" fill="#5EA0EF"/>
+            </svg>
+        </span>
+        <span class="header-title">Self-Healing Automated Cloud Monitoring</span>
+    </div>
+    <div class="top-bar">
+        <span class="last-updated" id="last-updated">Last updated: --</span>
+        <div style="display:flex;align-items:center;gap:16px;">
+            <div id="refresh-interval-bar" style="background:#f0f0fa;border-radius:12px;padding:6px 12px;display:flex;gap:8px;">
+                <button class="interval-btn" data-interval="5000" style="border:none;background:none;padding:6px 12px;border-radius:8px;cursor:pointer;font-weight:500;">5 sec</button>
+                <button class="interval-btn" data-interval="30000" style="border:none;background:none;padding:6px 12px;border-radius:8px;cursor:pointer;font-weight:500;">30 sec</button>
+                <button class="interval-btn" data-interval="3600000" style="border:none;background:none;padding:6px 12px;border-radius:8px;cursor:pointer;font-weight:500;">1 hr</button>
+            </div>
+            <button class="refresh-btn" id="refresh-btn">Refresh</button>
+        </div>
+    </div>
+    <div class="main-grid">
+        <div class="card">
+            <h2 class="system-health-title">System Health</h2>
+            <table class="system-health-table" style="width:100%;">
+                <thead>
+                    <tr><th>Node</th><th>Status</th></tr>
+                </thead>
+                <tbody id="status-body"></tbody>
+            </table>
+        </div>
+        <div class="card">
+            <h2 class="anomalies-title">Anomalies</h2>
+            <ul class="anomalies-list" id="anomalies-list"></ul>
+            
+        </div>
+        <div class="card">
+            <h2 class="healing-history-title">Healing History</h2>
+            <table class="healing-history-table" style="width:100%;">
+                <thead>
+                    <tr><th>Timestamp</th><th>IP</th><th>Issue</th><th>Before</th><th>After</th><th>Status</th></tr>
+                </thead>
+                <tbody id="healingHistoryBody"></tbody>
+            </table>
+        </div>
+        <div class="card targets-card" style="overflow-x:auto; max-height:340px;">
+            <h2 class="metrics-title">Prometheus Target Health</h2>
+            <div style="overflow-x:auto;">
+                <table id="targetsTable" style="width:100%; font-size:1.05rem; min-width:700px; table-layout:auto;">
+                    <thead>
+                        <tr>
+                            <th>Endpoint</th>
+                            <th>Labels</th>
+                            <th>Last Scrape</th>
+                            <th>Scrape Duration</th>
+                            <th>State</th>
+                        </tr>
+                    </thead>
+                    <tbody id="targetsTableBody" style="word-break:break-all;"></tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    <div class="notification" id="notification"><span id="notification-text"></span></div>
+    <script>
+        function updateLastUpdated() {
+            const now = new Date();
+            document.getElementById('last-updated').textContent = 'Last updated: ' + now.toLocaleTimeString();
+        }
+        async function updateHealingHistory() {
+            try {
+                const res = await fetch('healing_history.csv');
+                const csv = await res.text();
+                const parsed = Papa.parse(csv, {header: true});
+                let html = '';
+                // Healing history table (limit to 7 rows)
+                parsed.data.filter(row => row.timestamp).slice(-7).reverse().forEach(row => {
+                    let statusValue = row.status && row.status.trim() !== '' ? row.status : 'Healed';
+                    html += `<tr>
+                        <td title="${row.timestamp || '-'}">${row.timestamp || '-'}</td>
+                        <td title="${row.ip_address || '-'}">${row.ip_address || '-'}</td>
+                        <td title="${row.issue || '-'}">${row.issue || '-'}</td>
+                        <td title="${row.before_cpu || '-'} / ${row.before_ram || '-'} / ${row.before_disk || '-'}">${row.before_cpu || '-'} / ${row.before_ram || '-'} / ${row.before_disk || '-'}</td>
+                        <td title="${row.after_cpu || '-'} / ${row.after_ram || '-'} / ${row.after_disk || '-'}">${row.after_cpu || '-'} / ${row.after_ram || '-'} / ${row.after_disk || '-'}</td>
+                        <td title="${statusValue}">${statusValue}</td>
+                    </tr>`;
+                });
+                document.getElementById('healingHistoryBody').innerHTML = html;
+            } catch (e) {
+                document.getElementById('healingHistoryBody').innerHTML = '<tr><td colspan="6">Error loading healing history</td></tr>';
+            }
+        }
+        let lastAnomaliesHtml = '';
+        async function updateStatus() {
+            try {
+                console.log('Fetching status data...');
+                const res = await fetch('status.json');
+                const data = await res.json();
+                console.log('Raw status data:', data);
+                
+                // Fetch healing history
+                let healingHistory = [];
+                try {
+                    const healingRes = await fetch('healing_history.csv');
+                    const healingCsv = await healingRes.text();
+                    healingHistory = Papa.parse(healingCsv, {header: true}).data;
+                } catch (e) { 
+                    console.log('Error loading healing history:', e);
+                    healingHistory = []; 
+                }
+
+                let html = '';
+                let anomaliesHtml = '';
+                
+                // Process each server's data
+                data.forEach(server => {
+                    console.log('Processing server data:', server);
+                    
+                    // Find latest healing action
+                    let lastAction = 'No action taken yet.';
+                    const nodeHistory = healingHistory.filter(h => h.ip_address === (server.server ? server.server.split(':')[0] : ''));
+                    if (nodeHistory.length > 0) {
+                        const latest = nodeHistory[nodeHistory.length - 1];
+                        lastAction = latest.status && latest.status.trim() !== '' ? latest.status : 'Healed';
+                    }
+                    
+                    // Update status table
+                    let statusText, statusClass;
+                    if (server.anomalies && server.anomalies.length > 0) {
+                        statusText = `Anomaly Detected: ${server.anomalies.join(', ')}`;
+                        statusClass = 'badge-anomaly';
+                    } else {
+                        statusText = 'Healthy';
+                        statusClass = 'badge-healthy';
+                    }
+                    html += `<tr>
+                        <td>${server.server || '-'}</td>
+                        <td><span class="status-badge ${statusClass}">${statusText}</span></td>
+                    </tr>`;
+                    
+                    // Process anomalies
+                    if (server.anomalies && Array.isArray(server.anomalies) && server.anomalies.length > 0) {
+                        console.log('Found anomalies:', server.anomalies);
+                        const cpu = server.cpu !== null && server.cpu !== undefined ? server.cpu.toFixed(2) : '-';
+                        const ram = server.ram !== null && server.ram !== undefined ? server.ram.toFixed(2) : '-';
+                        const disk = server.disk !== null && server.disk !== undefined ? server.disk.toFixed(2) : '-';
+                        
+                        anomaliesHtml += `<li>
+                            <strong>${server.server}</strong><br>
+                            CPU: ${cpu}%<br>
+                            RAM: ${ram}%<br>
+                            Disk: ${disk}%<br>
+                            <span style='color:#b00020;font-weight:500;'>Anomaly detected and it is being treated</span><br>
+                            Issues: ${server.anomalies.join(', ')}
+                        </li>`;
+                    }
+                });
+
+                // Update the DOM
+                const statusBody = document.getElementById('status-body');
+                const anomaliesList = document.getElementById('anomalies-list');
+                
+                if (statusBody) {
+                    statusBody.innerHTML = html;
+                } else {
+                    console.error('Could not find status-body element');
+                }
+                
+                // Only update lastAnomaliesHtml if there are anomalies
+                if (anomaliesHtml) {
+                    lastAnomaliesHtml = anomaliesHtml;
+                }
+                if (anomaliesList) {
+                    anomaliesList.innerHTML = lastAnomaliesHtml || '<li>No anomalies detected</li>';
+                } else {
+                    console.error('Could not find anomalies-list element');
+                }
+                
+                // Update metrics chart
+                renderMetricsChart(data);
+                
+                // Update last updated time
+                updateLastUpdated();
+                
+            } catch (e) {
+                console.error('Error updating status:', e);
+                document.getElementById('status-body').innerHTML = '<tr><td colspan="2">Error loading status</td></tr>';
+                document.getElementById('anomalies-list').innerHTML = '<li>Error loading anomalies</li>';
+            }
+        }
+        function renderMetricsChart(statusData) {
+            console.log('Rendering metrics chart with data:', statusData);
+            const ctx = document.getElementById('metricsChart');
+            
+            if (!ctx) {
+                console.error('Could not find metrics chart canvas');
+                return;
+            }
+            
+            const context = ctx.getContext('2d');
+            
+            // Prepare data for bar chart
+            const labels = statusData.map(server => server.server || '-');
+            const cpuData = statusData.map(server => server.cpu !== null && server.cpu !== undefined ? parseFloat(server.cpu) : 0);
+            const ramData = statusData.map(server => server.ram !== null && server.ram !== undefined ? parseFloat(server.ram) : 0);
+            const diskData = statusData.map(server => server.disk !== null && server.disk !== undefined ? parseFloat(server.disk) : 0);
+            
+            console.log('Chart data:', { labels, cpuData, ramData, diskData });
+            
+            // Destroy existing chart if it exists
+            if (window.metricsChartInstance) {
+                window.metricsChartInstance.destroy();
+            }
+            
+            // Create new chart
+            window.metricsChartInstance = new Chart(context, {
+                type: 'bar',
+                data: {
+                    labels: labels,
+                    datasets: [
+                        {
+                            label: 'CPU Usage (%)',
+                            data: cpuData,
+                            backgroundColor: 'rgba(108,71,255,0.7)',
+                        },
+                        {
+                            label: 'RAM Usage (%)',
+                            data: ramData,
+                            backgroundColor: 'rgba(79,200,255,0.7)',
+                        },
+                        {
+                            label: 'Disk Usage (%)',
+                            data: diskData,
+                            backgroundColor: 'rgba(255,180,79,0.7)',
+                        }
+                    ]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    plugins: { 
+                        legend: { 
+                            labels: { 
+                                color: '#222',
+                                font: {
+                                    size: 12
+                                }
+                            } 
+                        } 
+                    },
+                    scales: {
+                        x: { 
+                            ticks: { 
+                                color: '#222',
+                                maxRotation: 45,
+                                minRotation: 45
+                            } 
+                        },
+                        y: { 
+                            ticks: { 
+                                color: '#222',
+                                beginAtZero: true,
+                                max: 100
+                            } 
+                        }
+                    }
+                }
+            });
+        }
+        function showNotification(message) {
+            const notification = document.getElementById('notification');
+            document.getElementById('notification-text').textContent = message;
+            notification.classList.add('show');
+            setTimeout(() => notification.classList.remove('show'), 2500);
+        }
+        let refreshInterval = 5000;
+        let refreshTimer = null;
+
+        function setRefreshInterval(interval) {
+            refreshInterval = interval;
+            if (refreshTimer) clearInterval(refreshTimer);
+            refreshTimer = setInterval(() => {
+                updateStatus();
+                updateHealingHistory();
+                updateLastUpdated();
+                updateTargetsTable();
+            }, refreshInterval);
+        }
+
+        document.getElementById('refresh-btn').onclick = function() {
+            updateStatus();
+            updateHealingHistory();
+            updateLastUpdated();
+            updateTargetsTable();
+            showNotification('Dashboard refreshed!');
+        };
+
+        document.querySelectorAll('.interval-btn').forEach(btn => {
+            btn.onclick = function() {
+                document.querySelectorAll('.interval-btn').forEach(b => b.style.background = 'none');
+                this.style.background = '#d1c4e9';
+                setRefreshInterval(Number(this.getAttribute('data-interval')));
+            };
+        });
+        // Set default highlight
+        (function(){
+            document.querySelector('.interval-btn[data-interval="5000"]').style.background = '#d1c4e9';
+        })();
+
+        async function updateTargetsTable() {
+            try {
+                const res = await fetch('http://localhost:9090/api/v1/targets');
+                const data = await res.json();
+                const activeTargets = data.data.activeTargets || [];
+                let html = '';
+                activeTargets.forEach(target => {
+                    const endpoint = target.scrapeUrl || target.labels.instance || '-';
+                    const labels = Object.entries(target.labels).map(([k, v]) => `${k}:<span style='color:#6c47ff;'>${v}</span>`).join(' ');
+                    const lastScrape = target.lastScrape ? new Date(target.lastScrape).toLocaleTimeString([], {hour: '2-digit', minute:'2-digit', second:'2-digit'}) : '-';
+                    const scrapeDuration = target.lastScrapeDuration ? (target.lastScrapeDuration * 1000).toFixed(0) + ' ms' : '-';
+                    const state = target.health === 'up' || target.health === 'UP'
+                        ? '<span style="background:#e8f5e9;color:#388e3c;padding:2px 10px;border-radius:10px;font-weight:600;font-size:0.98em;">UP</span>'
+                        : '<span style="background:#ffebee;color:#c62828;padding:2px 10px;border-radius:10px;font-weight:600;font-size:0.98em;">DOWN</span>';
+                    html += `<tr>
+                        <td><code style="font-size:1em;"><a href="${endpoint}" target="_blank" style="color:#333;text-decoration:none;">${endpoint}</a></code></td>
+                        <td style="font-size:0.97em;">${labels}</td>
+                        <td>${lastScrape}</td>
+                        <td>${scrapeDuration}</td>
+                        <td>${state}</td>
+                    </tr>`;
+                });
+                document.getElementById('targetsTableBody').innerHTML = html || '<tr><td colspan="5">No targets found</td></tr>';
+            } catch (e) {
+                document.getElementById('targetsTableBody').innerHTML = '<tr><td colspan="5">Error loading targets</td></tr>';
+            }
+        }
+        // Initial load
+        updateStatus();
+        updateHealingHistory();
+        updateLastUpdated();
+        updateTargetsTable();
+        setRefreshInterval(refreshInterval);
+    </script>
+</body>
+</html>

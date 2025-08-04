@@ -1,0 +1,20 @@
+[
+  {
+    "ip": "13.203.201.10",
+    "port": "9100",
+    "username": "ubuntu",
+    "pem_file": "mypem.pem"
+  },
+  {
+    "ip": "13.232.245.219",
+    "port": "9100",
+    "username": "ubuntu",
+    "pem_file": "mypem.pem"
+  },
+  {
+    "ip": "65.0.74.17",
+    "port": "9100",
+    "username": "ubuntu",
+    "pem_file": "mypem.pem"
+  }
+]

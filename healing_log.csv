@@ -1,0 +1,1232 @@
+Timestamp,Server Name,Action Taken
+2025-04-27 13:05:42,Server1,Restarted due to High CPU Usage
+2025-04-27 13:05:44,Server2,Restarted due to High CPU Usage
+2025-04-27 13:05:46,Server3,Restarted due to High CPU Usage
+2025-04-27 13:05:53,Server1,Restarted due to High CPU Usage
+2025-04-27 13:13:26,Server3,Restarted due to High CPU Usage
+2025-04-27 13:13:38,Server1,Restarted due to High CPU Usage
+2025-04-27 13:13:50,Server2,Restarted due to High CPU Usage
+2025-04-27 13:13:57,Server1,Restarted due to High CPU Usage
+2025-04-27 13:13:59,Server2,Restarted due to High CPU Usage
+2025-04-27 13:14:06,Server2,Restarted due to High CPU Usage
+2025-04-27 13:14:33,Server3,Restarted due to High CPU Usage
+2025-04-27 13:15:05,Server3,Restarted due to High CPU Usage
+2025-04-27 13:15:12,Server3,Restarted due to High CPU Usage
+2025-04-27 13:15:19,Server2,Restarted due to High CPU Usage
+2025-04-27 13:15:26,Server2,Restarted due to High CPU Usage
+2025-04-27 13:15:29,Server3,Restarted due to High CPU Usage
+2025-04-27 13:15:46,Server3,Restarted due to High CPU Usage
+2025-04-27 13:15:58,Server1,Restarted due to High CPU Usage
+2025-04-27 13:16:00,Server2,Restarted due to High CPU Usage
+2025-04-27 13:16:02,Server3,Restarted due to High CPU Usage
+2025-04-27 13:16:14,Server1,Restarted due to High CPU Usage
+2025-04-27 13:16:16,Server2,Restarted due to High CPU Usage
+2025-04-27 13:16:18,Server3,Restarted due to High CPU Usage
+2025-04-27 13:16:25,Server1,Restarted due to High CPU Usage
+2025-04-27 13:16:47,Server1,Restarted due to High CPU Usage
+2025-04-27 13:16:54,Server1,Restarted due to High CPU Usage
+2025-04-27 13:16:56,Server2,Restarted due to High CPU Usage
+2025-04-27 13:17:08,Server2,Restarted due to High CPU Usage
+2025-04-27 13:17:10,Server3,Restarted due to High CPU Usage
+2025-04-27 13:17:17,Server1,Restarted due to High CPU Usage
+2025-04-27 13:17:19,Server3,Restarted due to High CPU Usage
+2025-04-27 13:17:31,Server1,Restarted due to High CPU Usage
+2025-04-27 13:17:33,Server2,Restarted due to High CPU Usage
+2025-04-27 13:17:35,Server3,Restarted due to High CPU Usage
+2025-04-27 13:17:42,Server1,Restarted due to High CPU Usage
+2025-04-27 13:17:59,Server1,Restarted due to High CPU Usage
+2025-04-27 13:18:11,Server1,Restarted due to High CPU Usage
+2025-04-27 13:18:18,Server2,Restarted due to High CPU Usage
+2025-04-27 13:18:25,Server1,Restarted due to High CPU Usage
+2025-04-27 13:18:32,Server1,Restarted due to High CPU Usage
+2025-04-27 13:18:34,Server2,Restarted due to High CPU Usage
+2025-04-27 13:18:46,Server1,Restarted due to High CPU Usage
+2025-04-27 13:18:58,Server1,Restarted due to High CPU Usage
+2025-04-27 13:19:15,Server2,Restarted due to High CPU Usage
+2025-04-27 13:19:17,Server3,Restarted due to High CPU Usage
+2025-04-27 13:19:24,Server1,Restarted due to High CPU Usage
+2025-04-27 13:19:26,Server2,Restarted due to High CPU Usage
+2025-04-27 13:19:38,Server2,Restarted due to High CPU Usage
+2025-04-27 13:19:50,Server3,Restarted due to High CPU Usage
+2025-04-27 13:19:57,Server2,Restarted due to High CPU Usage
+2025-04-27 13:19:59,Server3,Restarted due to High CPU Usage
+2025-04-27 13:20:11,Server2,Restarted due to High CPU Usage
+2025-04-27 13:20:18,Server1,Restarted due to High CPU Usage
+2025-04-27 13:20:30,Server1,Restarted due to High CPU Usage
+2025-04-27 13:20:52,Server3,Restarted due to High CPU Usage
+2025-04-27 13:21:04,Server3,Restarted due to High CPU Usage
+2025-04-27 13:21:11,Server2,Restarted due to High CPU Usage
+2025-04-27 13:21:18,Server1,Restarted due to High CPU Usage
+2025-04-27 13:21:30,Server3,Restarted due to High CPU Usage
+2025-04-27 13:21:37,Server2,Restarted due to High CPU Usage
+2025-04-27 13:21:44,Server3,Restarted due to High CPU Usage
+2025-04-27 13:21:51,Server1,Restarted due to High CPU Usage
+2025-04-27 13:21:58,Server1,Restarted due to High CPU Usage
+2025-04-27 13:22:15,Server1,Restarted due to High CPU Usage
+2025-04-27 13:22:17,Server2,Restarted due to High CPU Usage
+2025-04-27 13:22:24,Server2,Restarted due to High CPU Usage
+2025-04-27 13:22:31,Server2,Restarted due to High CPU Usage
+2025-04-27 13:22:33,Server3,Restarted due to High CPU Usage
+2025-04-27 13:22:40,Server3,Restarted due to High CPU Usage
+2025-04-27 13:22:47,Server2,Restarted due to High CPU Usage
+2025-04-27 13:22:59,Server3,Restarted due to High CPU Usage
+2025-04-27 13:23:12,Server2,Restarted due to High CPU Usage
+2025-04-27 13:23:29,Server1,Restarted due to High CPU Usage
+2025-04-27 13:23:36,Server1,Restarted due to High CPU Usage
+2025-04-27 14:14:15,Server3,Restarted due to High CPU Usage
+2025-04-27 14:14:32,Server1,Restarted due to High CPU Usage
+2025-04-27 14:14:34,Server2,Restarted due to High CPU Usage
+2025-04-27 14:14:36,Server3,Restarted due to High CPU Usage
+2025-04-27 14:14:43,Server3,Restarted due to High CPU Usage
+2025-04-27 14:14:58,Server2,Restarted due to High CPU Usage
+2025-04-27 14:15:00,Server2,Restarted due to High CPU Usage
+2025-04-27 14:15:05,Server3,Restarted due to High CPU Usage
+2025-04-27 14:15:12,Server3,Restarted due to High CPU Usage
+2025-04-27 14:15:19,Server3,Restarted due to High CPU Usage
+2025-04-27 14:15:22,Server3,Restarted due to High CPU Usage
+2025-04-27 14:15:36,Server3,Restarted due to High CPU Usage
+2025-04-27 14:15:43,Server1,Restarted due to High CPU Usage
+2025-04-27 14:15:44,Server3,Restarted due to High CPU Usage
+2025-04-27 14:15:50,Server3,Restarted due to High CPU Usage
+2025-04-27 14:15:57,Server1,Restarted due to High CPU Usage
+2025-04-27 14:16:06,Server3,Restarted due to High CPU Usage
+2025-04-27 14:16:13,Server3,Restarted due to High CPU Usage
+2025-04-27 14:16:14,Server1,Restarted due to High CPU Usage
+2025-04-27 14:16:16,Server2,Restarted due to High CPU Usage
+2025-04-27 14:16:25,Server3,Restarted due to High CPU Usage
+2025-04-27 14:16:28,Server1,Restarted due to High CPU Usage
+2025-04-27 14:16:30,Server2,Restarted due to High CPU Usage
+2025-04-27 14:16:32,Server2,Restarted due to High CPU Usage
+2025-04-27 14:16:34,Server3,Restarted due to High CPU Usage
+2025-04-27 14:16:37,Server2,Restarted due to High CPU Usage
+2025-04-27 14:16:42,Server1,Restarted due to High CPU Usage
+2025-04-27 14:16:44,Server2,Restarted due to High CPU Usage
+2025-04-27 14:16:49,Server3,Restarted due to High CPU Usage
+2025-04-27 14:17:01,Server1,Restarted due to High CPU Usage
+2025-04-27 14:17:01,Server2,Restarted due to High CPU Usage
+2025-04-27 14:17:13,Server3,Restarted due to High CPU Usage
+2025-04-27 14:17:18,Server1,Restarted due to High CPU Usage
+2025-04-27 14:17:20,Server1,Restarted due to High CPU Usage
+2025-04-27 14:17:20,Server2,Restarted due to High CPU Usage
+2025-04-27 14:17:27,Server3,Restarted due to High CPU Usage
+2025-04-27 14:17:27,Server2,Restarted due to High CPU Usage
+2025-04-27 14:17:39,Server3,Restarted due to High CPU Usage
+2025-04-27 14:17:39,Server2,Restarted due to High CPU Usage
+2025-04-27 14:17:41,Server3,Restarted due to High CPU Usage
+2025-04-27 14:17:46,Server3,Restarted due to High CPU Usage
+2025-04-27 14:17:48,Server1,Restarted due to High CPU Usage
+2025-04-27 14:17:55,Server2,Restarted due to High CPU Usage
+2025-04-27 14:18:03,Server2,Restarted due to High CPU Usage
+2025-04-27 14:18:10,Server1,Restarted due to High CPU Usage
+2025-04-27 14:18:12,Server3,Restarted due to High CPU Usage
+2025-04-27 14:18:24,Server1,Restarted due to High CPU Usage
+2025-04-27 14:18:27,Server3,Restarted due to High CPU Usage
+2025-04-27 14:18:31,Server1,Restarted due to High CPU Usage
+2025-04-27 14:18:34,Server2,Restarted due to High CPU Usage
+2025-04-27 14:18:38,Server1,Restarted due to High CPU Usage
+2025-04-27 14:18:41,Server1,Restarted due to High CPU Usage
+2025-04-27 14:18:45,Server3,Restarted due to High CPU Usage
+2025-04-27 14:18:48,Server2,Restarted due to High CPU Usage
+2025-04-27 14:18:55,Server2,Restarted due to High CPU Usage
+2025-04-27 14:19:07,Server1,Restarted due to High CPU Usage
+2025-04-27 14:19:12,Server1,Restarted due to High CPU Usage
+2025-04-27 14:19:14,Server2,Restarted due to High CPU Usage
+2025-04-27 14:19:21,Server3,Restarted due to High CPU Usage
+2025-04-27 14:19:28,Server3,Restarted due to High CPU Usage
+2025-04-27 14:19:39,Server2,Restarted due to High CPU Usage
+2025-04-27 14:19:40,Server3,Restarted due to High CPU Usage
+2025-04-27 14:19:41,Server3,Restarted due to High CPU Usage
+2025-04-27 14:19:47,Server1,Restarted due to High CPU Usage
+2025-04-27 14:19:49,Server2,Restarted due to High CPU Usage
+2025-04-27 14:19:56,Server1,Restarted due to High CPU Usage
+2025-04-27 14:20:03,Server1,Restarted due to High CPU Usage
+2025-04-27 14:20:03,Server2,Restarted due to High CPU Usage
+2025-04-27 14:20:10,Server1,Restarted due to High CPU Usage
+2025-04-27 14:20:12,Server2,Restarted due to High CPU Usage
+2025-04-27 14:20:14,Server3,Restarted due to High CPU Usage
+2025-04-27 14:20:15,Server2,Restarted due to High CPU Usage
+2025-04-27 14:20:21,Server3,Restarted due to High CPU Usage
+2025-04-27 14:20:27,Server2,Restarted due to High CPU Usage
+2025-04-27 14:20:28,Server2,Restarted due to High CPU Usage
+2025-04-27 14:20:39,Server1,Restarted due to High CPU Usage
+2025-04-27 14:20:40,Server1,Restarted due to High CPU Usage
+2025-04-27 14:20:46,Server1,Restarted due to High CPU Usage
+2025-04-27 14:20:48,Server2,Restarted due to High CPU Usage
+2025-04-27 14:20:55,Server2,Restarted due to High CPU Usage
+2025-04-27 14:20:57,Server3,Restarted due to High CPU Usage
+2025-04-27 14:20:58,Server2,Restarted due to High CPU Usage
+2025-04-27 14:21:05,Server3,Restarted due to High CPU Usage
+2025-04-27 14:21:09,Server3,Restarted due to High CPU Usage
+2025-04-27 14:21:12,Server2,Restarted due to High CPU Usage
+2025-04-27 14:21:16,Server2,Restarted due to High CPU Usage
+2025-04-27 14:21:18,Server3,Restarted due to High CPU Usage
+2025-04-27 14:21:19,Server2,Restarted due to High CPU Usage
+2025-04-27 14:21:25,Server1,Restarted due to High CPU Usage
+2025-04-27 14:21:36,Server1,Restarted due to High CPU Usage
+2025-04-27 14:21:38,Server2,Restarted due to High CPU Usage
+2025-04-27 14:21:42,Server1,Restarted due to High CPU Usage
+2025-04-27 14:21:50,Server1,Restarted due to High CPU Usage
+2025-04-27 14:21:52,Server3,Restarted due to High CPU Usage
+2025-04-27 14:21:54,Server1,Restarted due to High CPU Usage
+2025-04-27 14:21:56,Server3,Restarted due to High CPU Usage
+2025-04-27 14:22:03,Server2,Restarted due to High CPU Usage
+2025-04-27 14:22:04,Server1,Restarted due to High CPU Usage
+2025-04-27 14:22:10,Server2,Restarted due to High CPU Usage
+2025-04-27 14:22:11,Server3,Restarted due to High CPU Usage
+2025-04-27 14:22:22,Server2,Restarted due to High CPU Usage
+2025-04-27 14:22:23,Server2,Restarted due to High CPU Usage
+2025-04-27 14:22:29,Server1,Restarted due to High CPU Usage
+2025-04-27 14:22:31,Server2,Restarted due to High CPU Usage
+2025-04-27 14:22:35,Server2,Restarted due to High CPU Usage
+2025-04-27 14:22:43,Server1,Restarted due to High CPU Usage
+2025-04-27 14:22:50,Server3,Restarted due to High CPU Usage
+2025-04-27 14:22:52,Server2,Restarted due to High CPU Usage
+2025-04-27 14:22:57,Server2,Restarted due to High CPU Usage
+2025-04-27 14:22:59,Server3,Restarted due to High CPU Usage
+2025-04-27 14:22:59,Server3,Restarted due to High CPU Usage
+2025-04-27 14:23:11,Server3,Restarted due to High CPU Usage
+2025-04-27 14:23:11,Server2,Restarted due to High CPU Usage
+2025-04-27 14:23:18,Server2,Restarted due to High CPU Usage
+2025-04-27 14:23:18,Server1,Restarted due to High CPU Usage
+2025-04-27 14:23:20,Server3,Restarted due to High CPU Usage
+2025-04-27 14:23:25,Server1,Restarted due to High CPU Usage
+2025-04-27 14:23:32,Server3,Restarted due to High CPU Usage
+2025-04-27 14:23:39,Server2,Restarted due to High CPU Usage
+2025-04-27 14:23:42,Server2,Restarted due to High CPU Usage
+2025-04-27 14:23:47,Server3,Restarted due to High CPU Usage
+2025-04-27 14:23:49,Server3,Restarted due to High CPU Usage
+2025-04-27 14:23:56,Server1,Restarted due to High CPU Usage
+2025-04-27 14:23:59,Server2,Restarted due to High CPU Usage
+2025-04-27 14:24:01,Server3,Restarted due to High CPU Usage
+2025-04-27 14:24:08,Server3,Restarted due to High CPU Usage
+2025-04-27 14:24:18,Server1,Restarted due to High CPU Usage
+2025-04-27 14:24:20,Server2,Restarted due to High CPU Usage
+2025-04-27 14:24:20,Server2,Restarted due to High CPU Usage
+2025-04-27 14:24:27,Server2,Restarted due to High CPU Usage
+2025-04-27 14:24:34,Server1,Restarted due to High CPU Usage
+2025-04-27 14:24:41,Server1,Restarted due to High CPU Usage
+2025-04-27 14:24:48,Server1,Restarted due to High CPU Usage
+2025-04-27 14:24:52,Server2,Restarted due to High CPU Usage
+2025-04-27 14:24:55,Server2,Restarted due to High CPU Usage
+2025-04-27 14:24:59,Server2,Restarted due to High CPU Usage
+2025-04-27 14:25:06,Server1,Restarted due to High CPU Usage
+2025-04-27 14:25:18,Server3,Restarted due to High CPU Usage
+2025-04-27 14:25:30,Server2,Restarted due to High CPU Usage
+2025-04-27 14:25:32,Server1,Restarted due to High CPU Usage
+2025-04-27 14:25:34,Server2,Restarted due to High CPU Usage
+2025-04-27 14:25:37,Server1,Restarted due to High CPU Usage
+2025-04-27 14:25:41,Server1,Restarted due to High CPU Usage
+2025-04-27 14:25:53,Server2,Restarted due to High CPU Usage
+2025-04-27 14:25:54,Server1,Restarted due to High CPU Usage
+2025-04-27 14:26:00,Server3,Restarted due to High CPU Usage
+2025-04-27 14:26:01,Server2,Restarted due to High CPU Usage
+2025-04-27 14:26:07,Server3,Restarted due to High CPU Usage
+2025-04-27 14:26:13,Server3,Restarted due to High CPU Usage
+2025-04-27 14:26:19,Server2,Restarted due to High CPU Usage
+2025-04-27 14:26:20,Server3,Restarted due to High CPU Usage
+2025-04-27 14:26:26,Server3,Restarted due to High CPU Usage
+2025-04-27 14:26:32,Server1,Restarted due to High CPU Usage
+2025-04-27 14:26:33,Server1,Restarted due to High CPU Usage
+2025-04-27 14:26:39,Server1,Restarted due to High CPU Usage
+2025-04-27 14:26:40,Server3,Restarted due to High CPU Usage
+2025-04-27 14:26:41,Server2,Restarted due to High CPU Usage
+2025-04-27 14:26:47,Server2,Restarted due to High CPU Usage
+2025-04-27 14:27:03,Server3,Restarted due to High CPU Usage
+2025-04-27 14:27:09,Server1,Restarted due to High CPU Usage
+2025-04-27 14:27:20,Server1,Restarted due to High CPU Usage
+2025-04-27 14:27:22,Server3,Restarted due to High CPU Usage
+2025-04-27 14:27:26,Server1,Restarted due to High CPU Usage
+2025-04-27 14:27:28,Server3,Restarted due to High CPU Usage
+2025-04-27 14:27:29,Server2,Restarted due to High CPU Usage
+2025-04-27 14:27:35,Server1,Restarted due to High CPU Usage
+2025-04-27 14:27:36,Server1,Restarted due to High CPU Usage
+2025-04-27 14:27:38,Server2,Restarted due to High CPU Usage
+2025-04-27 14:27:47,Server1,Restarted due to High CPU Usage
+2025-04-27 14:27:51,Server1,Restarted due to High CPU Usage
+2025-04-27 14:27:54,Server1,Restarted due to High CPU Usage
+2025-04-27 14:27:58,Server1,Restarted due to High CPU Usage
+2025-04-27 14:28:00,Server3,Restarted due to High CPU Usage
+2025-04-27 14:28:01,Server1,Restarted due to High CPU Usage
+2025-04-27 14:28:03,Server3,Restarted due to High CPU Usage
+2025-04-27 14:28:10,Server3,Restarted due to High CPU Usage
+2025-04-27 14:28:17,Server2,Restarted due to High CPU Usage
+2025-04-27 14:28:22,Server1,Restarted due to High CPU Usage
+2025-04-27 14:28:24,Server1,Restarted due to High CPU Usage
+2025-04-27 14:28:26,Server2,Restarted due to High CPU Usage
+2025-04-27 14:28:28,Server3,Restarted due to High CPU Usage
+2025-04-27 14:28:29,Server1,Restarted due to High CPU Usage
+2025-04-27 14:28:31,Server2,Restarted due to High CPU Usage
+2025-04-27 14:28:33,Server3,Restarted due to High CPU Usage
+2025-04-27 14:28:35,Server2,Restarted due to High CPU Usage
+2025-04-27 14:28:37,Server3,Restarted due to High CPU Usage
+2025-04-27 14:28:45,Server1,Restarted due to High CPU Usage
+2025-04-27 14:28:47,Server2,Restarted due to High CPU Usage
+2025-04-27 14:28:49,Server3,Restarted due to High CPU Usage
+2025-04-27 14:28:49,Server3,Restarted due to High CPU Usage
+2025-04-27 14:28:56,Server2,Restarted due to High CPU Usage
+2025-04-27 14:28:58,Server3,Restarted due to High CPU Usage
+2025-04-27 14:29:05,Server1,Restarted due to High CPU Usage
+2025-04-27 14:29:06,Server1,Restarted due to High CPU Usage
+2025-04-27 14:29:07,Server3,Restarted due to High CPU Usage
+2025-04-27 14:29:08,Server3,Restarted due to High CPU Usage
+2025-04-27 14:29:14,Server3,Restarted due to High CPU Usage
+2025-04-27 14:29:15,Server1,Restarted due to High CPU Usage
+2025-04-27 14:29:21,Server3,Restarted due to High CPU Usage
+2025-04-27 14:29:22,Server1,Restarted due to High CPU Usage
+2025-04-27 14:29:33,Server1,Restarted due to High CPU Usage
+2025-04-27 14:29:34,Server1,Restarted due to High CPU Usage
+2025-04-27 14:29:35,Server2,Restarted due to High CPU Usage
+2025-04-27 14:29:41,Server3,Restarted due to High CPU Usage
+2025-04-27 14:29:42,Server2,Restarted due to High CPU Usage
+2025-04-27 14:29:48,Server2,Restarted due to High CPU Usage
+2025-04-27 14:29:49,Server2,Restarted due to High CPU Usage
+2025-04-27 14:29:55,Server1,Restarted due to High CPU Usage
+2025-04-27 14:30:06,Server3,Restarted due to High CPU Usage
+2025-04-27 14:30:07,Server3,Restarted due to High CPU Usage
+2025-04-27 14:30:13,Server1,Restarted due to High CPU Usage
+2025-04-27 14:30:29,Server2,Restarted due to High CPU Usage
+2025-04-27 14:30:41,Server3,Restarted due to High CPU Usage
+2025-04-27 14:30:48,Server3,Restarted due to High CPU Usage
+2025-04-27 14:30:55,Server2,Restarted due to High CPU Usage
+2025-04-27 14:31:02,Server1,Restarted due to High CPU Usage
+2025-04-27 14:31:05,Server1,Restarted due to High CPU Usage
+2025-04-27 14:31:07,Server3,Restarted due to High CPU Usage
+2025-04-27 14:31:09,Server1,Restarted due to High CPU Usage
+2025-04-27 14:31:15,Server3,Restarted due to High CPU Usage
+2025-04-27 14:31:16,Server2,Restarted due to High CPU Usage
+2025-04-27 14:31:23,Server3,Restarted due to High CPU Usage
+2025-04-27 14:31:27,Server2,Restarted due to High CPU Usage
+2025-04-27 14:31:30,Server1,Restarted due to High CPU Usage
+2025-04-27 14:31:37,Server1,Restarted due to High CPU Usage
+2025-04-27 14:31:39,Server1,Restarted due to High CPU Usage
+2025-04-27 14:31:39,Server3,Restarted due to High CPU Usage
+2025-04-27 14:31:41,Server3,Restarted due to High CPU Usage
+2025-04-27 14:31:46,Server1,Restarted due to High CPU Usage
+2025-04-27 14:31:48,Server1,Restarted due to High CPU Usage
+2025-04-27 14:31:48,Server2,Restarted due to High CPU Usage
+2025-04-27 14:31:55,Server1,Restarted due to High CPU Usage
+2025-04-27 14:32:00,Server2,Restarted due to High CPU Usage
+2025-04-27 14:32:07,Server1,Restarted due to High CPU Usage
+2025-04-27 14:32:12,Server1,Restarted due to High CPU Usage
+2025-04-27 14:32:14,Server2,Restarted due to High CPU Usage
+2025-04-27 14:32:21,Server2,Restarted due to High CPU Usage
+2025-04-27 14:32:28,Server2,Restarted due to High CPU Usage
+2025-04-27 14:32:29,Server1,Restarted due to High CPU Usage
+2025-04-27 14:32:36,Server1,Restarted due to High CPU Usage
+2025-04-27 14:32:38,Server3,Restarted due to High CPU Usage
+2025-04-27 14:32:45,Server1,Restarted due to High CPU Usage
+2025-04-27 14:32:45,Server2,Restarted due to High CPU Usage
+2025-04-27 14:32:47,Server3,Restarted due to High CPU Usage
+2025-04-27 14:32:52,Server3,Restarted due to High CPU Usage
+2025-04-27 14:32:54,Server3,Restarted due to High CPU Usage
+2025-04-27 14:32:59,Server1,Restarted due to High CPU Usage
+2025-04-27 14:33:06,Server2,Restarted due to High CPU Usage
+2025-04-27 14:33:06,Server2,Restarted due to High CPU Usage
+2025-04-27 14:33:13,Server1,Restarted due to High CPU Usage
+2025-04-27 14:33:20,Server2,Restarted due to High CPU Usage
+2025-04-27 14:33:27,Server1,Restarted due to High CPU Usage
+2025-04-27 14:33:33,Server3,Restarted due to High CPU Usage
+2025-04-27 14:33:34,Server1,Restarted due to High CPU Usage
+2025-04-27 14:33:41,Server3,Restarted due to High CPU Usage
+2025-04-27 14:33:45,Server3,Restarted due to High CPU Usage
+2025-04-27 14:33:52,Server2,Restarted due to High CPU Usage
+2025-04-27 14:33:53,Server3,Restarted due to High CPU Usage
+2025-04-27 14:34:00,Server3,Restarted due to High CPU Usage
+2025-04-27 14:34:04,Server3,Restarted due to High CPU Usage
+2025-04-27 14:34:07,Server1,Restarted due to High CPU Usage
+2025-04-27 14:34:11,Server1,Restarted due to High CPU Usage
+2025-04-27 14:34:13,Server3,Restarted due to High CPU Usage
+2025-04-27 14:34:20,Server1,Restarted due to High CPU Usage
+2025-04-27 14:34:22,Server2,Restarted due to High CPU Usage
+2025-04-27 14:34:24,Server3,Restarted due to High CPU Usage
+2025-04-27 14:34:29,Server2,Restarted due to High CPU Usage
+2025-04-27 14:34:31,Server3,Restarted due to High CPU Usage
+2025-04-27 14:34:31,Server2,Restarted due to High CPU Usage
+2025-04-27 14:34:38,Server3,Restarted due to High CPU Usage
+2025-04-27 14:34:48,Server2,Restarted due to High CPU Usage
+2025-04-27 14:34:50,Server2,Restarted due to High CPU Usage
+2025-04-27 14:34:52,Server3,Restarted due to High CPU Usage
+2025-04-27 14:34:55,Server1,Restarted due to High CPU Usage
+2025-04-27 14:34:57,Server2,Restarted due to High CPU Usage
+2025-04-27 14:35:05,Server2,Restarted due to High CPU Usage
+2025-04-27 14:35:09,Server1,Restarted due to High CPU Usage
+2025-04-27 14:35:12,Server1,Restarted due to High CPU Usage
+2025-04-27 14:35:16,Server3,Restarted due to High CPU Usage
+2025-04-27 14:35:34,Server1,Restarted due to High CPU Usage
+2025-04-27 14:35:41,Server3,Restarted due to High CPU Usage
+2025-04-27 14:35:43,Server3,Restarted due to High CPU Usage
+2025-04-27 14:35:55,Server3,Restarted due to High CPU Usage
+2025-04-27 14:35:58,Server1,Restarted due to High CPU Usage
+2025-04-27 14:36:05,Server2,Restarted due to High CPU Usage
+2025-04-27 14:36:07,Server1,Restarted due to High CPU Usage
+2025-04-27 14:36:12,Server1,Restarted due to High CPU Usage
+2025-04-27 14:36:14,Server2,Restarted due to High CPU Usage
+2025-04-27 14:36:14,Server1,Restarted due to High CPU Usage
+2025-04-27 14:36:16,Server3,Restarted due to High CPU Usage
+2025-04-27 14:36:26,Server2,Restarted due to High CPU Usage
+2025-04-27 14:36:43,Server1,Restarted due to High CPU Usage
+2025-04-27 14:36:48,Server3,Restarted due to High CPU Usage
+2025-04-27 14:36:50,Server3,Restarted due to High CPU Usage
+2025-04-27 14:37:00,Server1,Restarted due to High CPU Usage
+2025-04-27 14:37:07,Server3,Restarted due to High CPU Usage
+2025-04-27 14:37:07,Server3,Restarted due to High CPU Usage
+2025-04-27 14:37:14,Server1,Restarted due to High CPU Usage
+2025-04-27 14:37:19,Server1,Restarted due to High CPU Usage
+2025-04-27 14:37:21,Server2,Restarted due to High CPU Usage
+2025-04-27 14:37:28,Server2,Restarted due to High CPU Usage
+2025-04-27 14:37:30,Server3,Restarted due to High CPU Usage
+2025-04-27 14:37:37,Server3,Restarted due to High CPU Usage
+2025-04-27 14:37:44,Server2,Restarted due to High CPU Usage
+2025-04-27 14:37:46,Server2,Restarted due to High CPU Usage
+2025-04-27 14:37:48,Server3,Restarted due to High CPU Usage
+2025-04-27 14:37:51,Server2,Restarted due to High CPU Usage
+2025-04-27 14:37:55,Server1,Restarted due to High CPU Usage
+2025-04-27 14:38:02,Server2,Restarted due to High CPU Usage
+2025-04-27 14:38:03,Server3,Restarted due to High CPU Usage
+2025-04-27 14:38:04,Server3,Restarted due to High CPU Usage
+2025-04-27 14:38:10,Server3,Restarted due to High CPU Usage
+2025-04-27 14:38:11,Server1,Restarted due to High CPU Usage
+2025-04-27 14:38:17,Server2,Restarted due to High CPU Usage
+2025-04-27 14:38:19,Server3,Restarted due to High CPU Usage
+2025-04-27 14:38:23,Server2,Restarted due to High CPU Usage
+2025-04-27 14:38:26,Server1,Restarted due to High CPU Usage
+2025-04-27 14:38:30,Server1,Restarted due to High CPU Usage
+2025-04-27 14:38:33,Server1,Restarted due to High CPU Usage
+2025-04-27 14:38:37,Server2,Restarted due to High CPU Usage
+2025-04-27 14:38:40,Server3,Restarted due to High CPU Usage
+2025-04-27 14:38:44,Server1,Restarted due to High CPU Usage
+2025-04-27 14:38:46,Server2,Restarted due to High CPU Usage
+2025-04-27 14:38:47,Server2,Restarted due to High CPU Usage
+2025-04-27 14:38:49,Server3,Restarted due to High CPU Usage
+2025-04-27 14:38:58,Server2,Restarted due to High CPU Usage
+2025-04-27 14:39:00,Server3,Restarted due to High CPU Usage
+2025-04-27 14:39:02,Server2,Restarted due to High CPU Usage
+2025-04-27 14:39:09,Server2,Restarted due to High CPU Usage
+2025-04-27 14:39:22,Server3,Restarted due to High CPU Usage
+2025-04-27 14:39:31,Server1,Restarted due to High CPU Usage
+2025-04-27 14:39:34,Server2,Restarted due to High CPU Usage
+2025-04-27 14:39:41,Server3,Restarted due to High CPU Usage
+2025-04-27 14:39:43,Server2,Restarted due to High CPU Usage
+2025-04-27 14:39:48,Server3,Restarted due to High CPU Usage
+2025-04-27 14:39:50,Server3,Restarted due to High CPU Usage
+2025-04-27 14:39:57,Server1,Restarted due to High CPU Usage
+2025-04-27 14:40:00,Server1,Restarted due to High CPU Usage
+2025-04-27 14:40:04,Server2,Restarted due to High CPU Usage
+2025-04-27 14:40:07,Server1,Restarted due to High CPU Usage
+2025-04-27 14:40:09,Server2,Restarted due to High CPU Usage
+2025-04-27 14:40:11,Server2,Restarted due to High CPU Usage
+2025-04-27 14:40:16,Server2,Restarted due to High CPU Usage
+2025-04-27 14:40:23,Server1,Restarted due to High CPU Usage
+2025-04-27 14:40:28,Server2,Restarted due to High CPU Usage
+2025-04-27 14:40:35,Server2,Restarted due to High CPU Usage
+2025-04-27 14:40:42,Server1,Restarted due to High CPU Usage
+2025-04-27 14:40:49,Server1,Restarted due to High CPU Usage
+2025-04-27 14:40:50,Server2,Restarted due to High CPU Usage
+2025-04-27 14:40:52,Server3,Restarted due to High CPU Usage
+2025-04-27 14:40:56,Server1,Restarted due to High CPU Usage
+2025-04-27 14:40:58,Server3,Restarted due to High CPU Usage
+2025-04-27 14:41:04,Server2,Restarted due to High CPU Usage
+2025-04-27 14:41:11,Server2,Restarted due to High CPU Usage
+2025-04-27 14:41:13,Server3,Restarted due to High CPU Usage
+2025-04-27 14:41:20,Server2,Restarted due to High CPU Usage
+2025-04-27 14:41:22,Server3,Restarted due to High CPU Usage
+2025-04-27 14:41:25,Server1,Restarted due to High CPU Usage
+2025-04-27 14:41:32,Server2,Restarted due to High CPU Usage
+2025-04-27 14:41:34,Server1,Restarted due to High CPU Usage
+2025-04-27 14:41:44,Server1,Restarted due to High CPU Usage
+2025-04-27 14:41:51,Server1,Restarted due to High CPU Usage
+2025-04-27 14:41:56,Server3,Restarted due to High CPU Usage
+2025-04-27 14:42:03,Server2,Restarted due to High CPU Usage
+2025-04-27 14:42:08,Server1,Restarted due to High CPU Usage
+2025-04-27 14:42:15,Server1,Restarted due to High CPU Usage
+2025-04-27 14:42:20,Server3,Restarted due to High CPU Usage
+2025-04-27 14:42:22,Server1,Restarted due to High CPU Usage
+2025-04-27 14:42:24,Server2,Restarted due to High CPU Usage
+2025-04-27 14:42:31,Server1,Restarted due to High CPU Usage
+2025-04-27 14:42:33,Server2,Restarted due to High CPU Usage
+2025-04-27 14:42:33,Server3,Restarted due to High CPU Usage
+2025-04-27 14:42:40,Server2,Restarted due to High CPU Usage
+2025-04-27 14:42:42,Server3,Restarted due to High CPU Usage
+2025-04-27 14:42:50,Server3,Restarted due to High CPU Usage
+2025-04-27 14:42:54,Server1,Restarted due to High CPU Usage
+2025-04-27 14:43:16,Server3,Restarted due to High CPU Usage
+2025-04-27 14:43:17,Server2,Restarted due to High CPU Usage
+2025-04-27 14:43:23,Server1,Restarted due to High CPU Usage
+2025-04-27 14:43:24,Server2,Restarted due to High CPU Usage
+2025-04-27 14:43:25,Server2,Restarted due to High CPU Usage
+2025-04-27 14:43:31,Server1,Restarted due to High CPU Usage
+2025-04-27 14:43:32,Server1,Restarted due to High CPU Usage
+2025-04-27 14:43:34,Server3,Restarted due to High CPU Usage
+2025-04-27 14:43:38,Server1,Restarted due to High CPU Usage
+2025-04-27 14:43:40,Server3,Restarted due to High CPU Usage
+2025-04-27 14:43:41,Server3,Restarted due to High CPU Usage
+2025-04-27 14:43:47,Server2,Restarted due to High CPU Usage
+2025-04-27 14:43:53,Server2,Restarted due to High CPU Usage
+2025-04-27 14:43:55,Server3,Restarted due to High CPU Usage
+2025-04-27 14:44:04,Server1,Restarted due to High CPU Usage
+2025-04-27 14:44:12,Server1,Restarted due to High CPU Usage
+2025-04-27 14:44:21,Server2,Restarted due to High CPU Usage
+2025-04-27 14:44:29,Server1,Restarted due to High CPU Usage
+2025-04-27 14:44:33,Server1,Restarted due to High CPU Usage
+2025-04-27 14:44:35,Server2,Restarted due to High CPU Usage
+2025-04-27 14:44:36,Server2,Restarted due to High CPU Usage
+2025-04-27 14:44:43,Server2,Restarted due to High CPU Usage
+2025-04-27 14:44:55,Server2,Restarted due to High CPU Usage
+2025-04-27 14:45:02,Server1,Restarted due to High CPU Usage
+2025-04-27 14:45:12,Server3,Restarted due to High CPU Usage
+2025-04-27 14:45:14,Server1,Restarted due to High CPU Usage
+2025-04-27 14:45:16,Server2,Restarted due to High CPU Usage
+2025-04-27 14:45:19,Server1,Restarted due to High CPU Usage
+2025-04-27 14:45:23,Server2,Restarted due to High CPU Usage
+2025-04-27 14:45:30,Server1,Restarted due to High CPU Usage
+2025-04-27 14:45:32,Server2,Restarted due to High CPU Usage
+2025-04-27 14:45:36,Server1,Restarted due to High CPU Usage
+2025-04-27 14:45:39,Server1,Restarted due to High CPU Usage
+2025-04-27 14:45:46,Server3,Restarted due to High CPU Usage
+2025-04-27 14:45:48,Server2,Restarted due to High CPU Usage
+2025-04-27 14:46:03,Server1,Restarted due to High CPU Usage
+2025-04-27 14:46:05,Server2,Restarted due to High CPU Usage
+2025-04-27 14:46:07,Server3,Restarted due to High CPU Usage
+2025-04-27 14:46:10,Server1,Restarted due to High CPU Usage
+2025-04-27 14:46:12,Server3,Restarted due to High CPU Usage
+2025-04-27 14:46:19,Server3,Restarted due to High CPU Usage
+2025-04-27 14:46:19,Server1,Restarted due to High CPU Usage
+2025-04-27 14:46:26,Server1,Restarted due to High CPU Usage
+2025-04-27 14:46:26,Server1,Restarted due to High CPU Usage
+2025-04-27 14:46:28,Server2,Restarted due to High CPU Usage
+2025-04-27 14:46:33,Server1,Restarted due to High CPU Usage
+2025-04-27 14:46:35,Server1,Restarted due to High CPU Usage
+2025-04-27 14:46:35,Server3,Restarted due to High CPU Usage
+2025-04-27 14:46:47,Server1,Restarted due to High CPU Usage
+2025-04-27 14:46:48,Server3,Restarted due to High CPU Usage
+2025-04-27 14:46:49,Server3,Restarted due to High CPU Usage
+2025-04-27 14:46:56,Server3,Restarted due to High CPU Usage
+2025-04-27 14:47:05,Server1,Restarted due to High CPU Usage
+2025-04-27 14:47:08,Server3,Restarted due to High CPU Usage
+2025-04-27 14:47:12,Server1,Restarted due to High CPU Usage
+2025-04-27 14:47:15,Server3,Restarted due to High CPU Usage
+2025-04-27 14:47:19,Server2,Restarted due to High CPU Usage
+2025-04-27 14:47:22,Server1,Restarted due to High CPU Usage
+2025-04-27 14:47:24,Server3,Restarted due to High CPU Usage
+2025-04-27 14:47:31,Server1,Restarted due to High CPU Usage
+2025-04-27 14:47:36,Server2,Restarted due to High CPU Usage
+2025-04-27 14:47:38,Server1,Restarted due to High CPU Usage
+2025-04-27 14:47:40,Server2,Restarted due to High CPU Usage
+2025-04-27 14:47:42,Server3,Restarted due to High CPU Usage
+2025-04-27 14:47:43,Server2,Restarted due to High CPU Usage
+2025-04-27 14:47:49,Server2,Restarted due to High CPU Usage
+2025-04-27 14:47:50,Server2,Restarted due to High CPU Usage
+2025-04-27 14:47:57,Server1,Restarted due to High CPU Usage
+2025-04-27 14:48:04,Server1,Restarted due to High CPU Usage
+2025-04-27 14:48:06,Server1,Restarted due to High CPU Usage
+2025-04-27 14:48:08,Server2,Restarted due to High CPU Usage
+2025-04-27 14:48:16,Server2,Restarted due to High CPU Usage
+2025-04-27 14:48:18,Server3,Restarted due to High CPU Usage
+2025-04-27 14:49:44,Server3,Restarted due to High CPU Usage
+2025-04-27 14:49:51,Server2,Restarted due to High CPU Usage
+2025-04-27 14:50:03,Server1,Restarted due to High CPU Usage
+2025-04-27 14:50:16,Server2,Restarted due to High CPU Usage
+2025-04-27 14:50:25,Server1,Restarted due to High CPU Usage
+2025-04-27 14:50:27,Server3,Restarted due to High CPU Usage
+2025-04-27 14:50:34,Server2,Restarted due to High CPU Usage
+2025-04-27 14:50:36,Server3,Restarted due to High CPU Usage
+2025-04-27 14:50:43,Server1,Restarted due to High CPU Usage
+2025-04-27 14:50:45,Server2,Restarted due to High CPU Usage
+2025-04-27 14:50:57,Server2,Restarted due to High CPU Usage
+2025-04-27 14:51:09,Server3,Restarted due to High CPU Usage
+2025-04-27 14:51:16,Server1,Restarted due to High CPU Usage
+2025-04-27 14:51:28,Server2,Restarted due to High CPU Usage
+2025-04-27 14:51:30,Server3,Restarted due to High CPU Usage
+2025-04-27 14:51:42,Server1,Restarted due to High CPU Usage
+2025-04-27 14:51:49,Server1,Restarted due to High CPU Usage
+2025-04-27 14:52:06,Server2,Restarted due to High CPU Usage
+2025-04-27 14:52:13,Server2,Restarted due to High CPU Usage
+2025-04-27 14:52:20,Server1,Restarted due to High CPU Usage
+2025-04-27 14:52:22,Server2,Restarted due to High CPU Usage
+2025-04-27 14:52:29,Server1,Restarted due to High CPU Usage
+2025-04-27 14:52:36,Server3,Restarted due to High CPU Usage
+2025-04-27 14:52:43,Server3,Restarted due to High CPU Usage
+2025-04-27 14:52:55,Server2,Restarted due to High CPU Usage
+2025-04-27 14:53:07,Server2,Restarted due to High CPU Usage
+2025-04-27 14:53:29,Server3,Restarted due to High CPU Usage
+2025-04-27 14:53:46,Server2,Restarted due to High CPU Usage
+2025-04-27 14:54:03,Server1,Restarted due to High CPU Usage
+2025-04-27 14:54:10,Server3,Restarted due to High CPU Usage
+2025-04-27 14:54:22,Server3,Restarted due to High CPU Usage
+2025-04-27 14:54:29,Server2,Restarted due to High CPU Usage
+2025-04-27 14:54:31,Server3,Restarted due to High CPU Usage
+2025-04-27 14:54:48,Server2,Restarted due to High CPU Usage
+2025-04-27 14:54:58,Server1,Restarted due to High CPU
+2025-04-27 14:55:00,Server1,Restarted due to High RAM
+2025-04-27 14:55:02,Server3,Restarted due to High RAM
+2025-04-27 14:55:09,Server1,Restarted due to High CPU
+2025-04-27 14:55:11,Server2,Restarted due to High CPU
+2025-04-27 14:55:18,Server1,Restarted due to High RAM
+2025-04-27 14:55:20,Server1,Restarted due to High Disk
+2025-04-27 14:55:22,Server2,Restarted due to High RAM
+2025-04-27 14:55:29,Server1,Restarted due to High CPU
+2025-04-27 14:55:31,Server2,Restarted due to High Disk
+2025-04-27 14:55:33,Server3,Restarted due to High RAM
+2025-04-27 14:55:40,Server1,Restarted due to High Disk
+2025-04-27 14:55:47,Server1,Restarted due to High CPU
+2025-04-27 14:55:49,Server1,Restarted due to High RAM
+2025-04-27 14:55:51,Server2,Restarted due to High Disk
+2025-04-27 14:55:53,Server3,Restarted due to High CPU
+2025-04-27 14:56:00,Server3,Restarted due to High CPU
+2025-04-27 14:56:07,Server1,Restarted due to High CPU
+2025-04-27 14:56:09,Server1,Restarted due to High Disk
+2025-04-27 14:56:16,Server2,Restarted due to High RAM
+2025-04-27 14:56:28,Server2,Restarted due to High CPU
+2025-04-27 14:56:30,Server2,Restarted due to High RAM
+2025-04-27 14:56:32,Server2,Restarted due to High Disk
+2025-04-27 14:56:39,Server1,Restarted due to High RAM
+2025-04-27 14:56:41,Server2,Restarted due to High CPU
+2025-04-27 14:56:48,Server1,Restarted due to High CPU
+2025-04-27 14:56:50,Server3,Restarted due to High CPU
+2025-04-27 14:56:52,Server3,Restarted due to High Disk
+2025-04-27 14:56:59,Server1,Restarted due to High CPU
+2025-04-27 14:57:01,Server2,Restarted due to High RAM
+2025-04-27 14:57:08,Server2,Restarted due to High CPU
+2025-04-27 14:57:15,Server1,Restarted due to High Disk
+2025-04-27 14:57:17,Server3,Restarted due to High RAM
+2025-04-27 14:57:24,Server2,Restarted due to High Disk
+2025-04-27 14:57:36,Server2,Restarted due to High RAM
+2025-04-27 14:57:43,Server1,Restarted due to High CPU
+2025-04-27 14:57:50,Server2,Restarted due to High RAM
+2025-04-27 14:57:52,Server3,Restarted due to High RAM
+2025-04-27 14:58:04,Server2,Restarted due to High Disk
+2025-04-27 14:58:06,Server3,Restarted due to High RAM
+2025-04-27 14:58:13,Server1,Restarted due to High CPU
+2025-04-27 14:58:15,Server1,Restarted due to High RAM
+2025-04-27 14:58:17,Server3,Restarted due to High Disk
+2025-04-27 14:58:24,Server1,Restarted due to High Disk
+2025-04-27 14:58:26,Server3,Restarted due to High Disk
+2025-04-27 14:58:38,Server2,Restarted due to High CPU
+2025-04-27 14:58:40,Server2,Restarted due to High Disk
+2025-04-27 14:58:47,Server1,Restarted due to High CPU
+2025-04-27 14:58:49,Server1,Restarted due to High RAM
+2025-04-27 14:58:51,Server3,Restarted due to High RAM
+2025-04-27 14:58:58,Server2,Restarted due to High RAM
+2025-04-27 14:59:00,Server2,Restarted due to High Disk
+2025-04-27 14:59:02,Server3,Restarted due to High RAM
+2025-04-27 14:59:09,Server1,Restarted due to High CPU
+2025-04-27 14:59:12,Server1,Restarted due to High RAM
+2025-04-27 14:59:14,Server1,Restarted due to High Disk
+2025-04-27 14:59:16,Server2,Restarted due to High CPU
+2025-04-27 14:59:18,Server3,Restarted due to High Disk
+2025-04-27 14:59:25,Server1,Restarted due to High CPU
+2025-04-27 14:59:27,Server3,Restarted due to High Disk
+2025-04-27 14:59:34,Server1,Restarted due to High CPU
+2025-04-27 14:59:41,Server3,Restarted due to High CPU
+2025-04-27 14:59:48,Server2,Restarted due to High CPU
+2025-04-27 15:00:00,Server2,Restarted due to High RAM
+2025-04-27 15:00:07,Server3,Restarted due to High CPU
+2025-04-27 15:00:14,Server1,Restarted due to High Disk
+2025-04-27 15:00:26,Server1,Restarted due to High Disk
+2025-04-27 15:00:28,Server2,Restarted due to High CPU
+2025-04-27 15:00:30,Server2,Restarted due to High RAM
+2025-04-27 15:00:32,Server2,Restarted due to High Disk
+2025-04-27 15:00:34,Server3,Restarted due to High CPU
+2025-04-27 15:00:41,Server2,Restarted due to High RAM
+2025-04-27 15:00:43,Server2,Restarted due to High Disk
+2025-04-27 15:00:45,Server3,Restarted due to High CPU
+2025-04-27 15:00:52,Server3,Restarted due to High Disk
+2025-04-27 15:00:59,Server2,Restarted due to High CPU
+2025-04-27 15:01:01,Server2,Restarted due to High Disk
+2025-04-27 15:01:03,Server3,Restarted due to High Disk
+2025-04-27 15:01:10,Server3,Restarted due to High CPU
+2025-04-27 15:01:17,Server1,Restarted due to High RAM
+2025-04-27 15:01:19,Server2,Restarted due to High Disk
+2025-04-27 15:01:21,Server3,Restarted due to High RAM
+2025-04-27 15:01:28,Server2,Restarted due to High CPU
+2025-04-27 15:01:40,Server1,Restarted due to High CPU
+2025-04-27 15:01:42,Server1,Restarted due to High RAM
+2025-04-27 15:01:44,Server3,Restarted due to High CPU
+2025-04-27 15:01:46,Server3,Restarted due to High Disk
+2025-04-27 15:01:58,Server2,Restarted due to High Disk
+2025-04-27 15:02:00,Server3,Restarted due to High CPU
+2025-04-27 15:02:07,Server1,Restarted due to High RAM
+2025-04-27 15:02:09,Server1,Restarted due to High Disk
+2025-04-27 15:02:11,Server2,Restarted due to High RAM
+2025-04-27 15:02:18,Server3,Restarted due to High CPU
+2025-04-27 15:02:20,Server3,Restarted due to High Disk
+2025-04-27 15:02:27,Server1,Restarted due to High RAM
+2025-04-27 15:02:29,Server3,Restarted due to High RAM
+2025-04-27 15:02:31,Server3,Restarted due to High Disk
+2025-04-27 15:02:38,Server2,Restarted due to High RAM
+2025-04-27 15:02:45,Server2,Restarted due to High CPU
+2025-04-27 15:02:47,Server3,Restarted due to High CPU
+2025-04-27 15:02:49,Server3,Restarted due to High Disk
+2025-04-27 15:02:56,Server1,Restarted due to High CPU
+2025-04-27 15:02:58,Server2,Restarted due to High RAM
+2025-04-27 15:03:00,Server2,Restarted due to High Disk
+2025-04-27 15:03:02,Server3,Restarted due to High Disk
+2025-04-27 15:03:09,Server3,Restarted due to High RAM
+2025-04-27 15:03:16,Server2,Restarted due to High Disk
+2025-04-27 15:03:23,Server1,Restarted due to High CPU
+2025-04-27 15:03:30,Server1,Restarted due to High RAM
+2025-04-27 15:03:37,Server1,Restarted due to High CPU
+2025-04-27 15:03:44,Server1,Restarted due to High CPU
+2025-04-27 15:03:46,Server2,Restarted due to High CPU
+2025-04-27 15:03:53,Server3,Restarted due to High CPU
+2025-04-27 15:04:00,Server1,Restarted due to High CPU
+2025-04-27 15:04:02,Server1,Restarted due to High RAM
+2025-04-27 15:04:04,Server3,Restarted due to High RAM
+2025-04-27 15:04:11,Server1,Restarted due to High CPU
+2025-04-27 15:04:13,Server1,Restarted due to High RAM
+2025-04-27 15:04:15,Server1,Restarted due to High Disk
+2025-04-27 15:04:27,Server1,Restarted due to High CPU
+2025-04-27 15:04:29,Server1,Restarted due to High RAM
+2025-04-27 15:04:31,Server2,Restarted due to High CPU
+2025-04-27 15:04:33,Server3,Restarted due to High CPU
+2025-04-27 15:04:40,Server2,Restarted due to High RAM
+2025-04-27 15:04:47,Server1,Restarted due to High CPU
+2025-04-27 15:04:49,Server3,Restarted due to High RAM
+2025-04-27 15:04:56,Server3,Restarted due to High RAM
+2025-04-27 15:05:03,Server1,Restarted due to High RAM
+2025-04-27 15:05:20,Server2,Restarted due to High CPU
+2025-04-27 15:05:22,Server3,Restarted due to High RAM
+2025-04-27 15:05:29,Server1,Restarted due to High Disk
+2025-04-27 15:05:31,Server2,Restarted due to High Disk
+2025-04-27 15:05:33,Server3,Restarted due to High Disk
+2025-04-27 15:05:40,Server2,Restarted due to High CPU
+2025-04-27 15:05:52,Server1,Restarted due to High RAM
+2025-04-27 15:05:54,Server2,Restarted due to High CPU
+2025-04-27 15:06:01,Server3,Restarted due to High CPU
+2025-04-27 15:06:03,Server3,Restarted due to High Disk
+2025-04-27 15:06:10,Server1,Restarted due to High RAM
+2025-04-27 15:06:12,Server3,Restarted due to High Disk
+2025-04-27 15:06:19,Server2,Restarted due to High CPU
+2025-04-27 15:06:21,Server2,Restarted due to High Disk
+2025-04-27 15:06:23,Server3,Restarted due to High RAM
+2025-04-27 15:06:30,Server2,Restarted due to High RAM
+2025-04-27 15:06:32,Server3,Restarted due to High CPU
+2025-04-27 15:06:39,Server1,Restarted due to High CPU
+2025-04-27 15:06:41,Server1,Restarted due to High Disk
+2025-04-27 15:06:43,Server3,Restarted due to High CPU
+2025-04-27 15:06:50,Server1,Restarted due to High CPU
+2025-04-27 15:06:52,Server3,Restarted due to High RAM
+2025-04-27 15:06:59,Server2,Restarted due to High CPU
+2025-04-27 15:07:06,Server2,Restarted due to High RAM
+2025-04-27 15:07:13,Server1,Restarted due to High RAM
+2025-04-27 15:07:15,Server2,Restarted due to High Disk
+2025-04-27 15:07:17,Server3,Restarted due to High CPU
+2025-04-27 15:07:24,Server1,Restarted due to High Disk
+2025-04-27 15:07:26,Server2,Restarted due to High CPU
+2025-04-27 15:07:29,Server3,Restarted due to High CPU
+2025-04-27 15:07:36,Server1,Restarted due to High CPU
+2025-04-27 15:07:38,Server1,Restarted due to High RAM
+2025-04-27 15:07:40,Server3,Restarted due to High RAM
+2025-04-27 15:07:52,Server1,Restarted due to High RAM
+2025-04-27 15:07:59,Server1,Restarted due to High CPU
+2025-04-27 15:08:01,Server1,Restarted due to High RAM
+2025-04-27 15:08:03,Server2,Restarted due to High Disk
+2025-04-27 15:08:10,Server2,Restarted due to High CPU
+2025-04-27 15:08:12,Server3,Restarted due to High CPU
+2025-04-27 15:08:19,Server1,Restarted due to High CPU
+2025-04-27 15:08:21,Server2,Restarted due to High CPU
+2025-04-27 15:08:23,Server3,Restarted due to High Disk
+2025-04-27 15:08:30,Server1,Restarted due to High Disk
+2025-04-27 15:08:32,Server3,Restarted due to High CPU
+2025-04-27 15:08:34,Server3,Restarted due to High Disk
+2025-04-27 15:08:41,Server1,Restarted due to High RAM
+2025-04-27 15:08:43,Server2,Restarted due to High CPU
+2025-04-27 15:08:45,Server3,Restarted due to High CPU
+2025-04-27 15:08:52,Server1,Restarted due to High CPU
+2025-04-27 15:08:59,Server1,Restarted due to High RAM
+2025-04-27 15:09:01,Server3,Restarted due to High CPU
+2025-04-27 15:09:03,Server3,Restarted due to High Disk
+2025-04-27 15:09:10,Server1,Restarted due to High CPU
+2025-04-27 15:09:12,Server1,Restarted due to High RAM
+2025-04-27 15:09:14,Server3,Restarted due to High CPU
+2025-04-27 15:09:26,Server3,Restarted due to High CPU
+2025-04-27 15:09:38,Server1,Restarted due to High Disk
+2025-04-27 15:09:45,Server2,Restarted due to High RAM
+2025-04-27 15:09:52,Server1,Restarted due to High Disk
+2025-04-27 15:09:54,Server2,Restarted due to High Disk
+2025-04-27 15:10:01,Server1,Restarted due to High CPU
+2025-04-27 15:10:03,Server2,Restarted due to High CPU
+2025-04-27 15:10:05,Server3,Restarted due to High CPU
+2025-04-27 15:10:12,Server2,Restarted due to High Disk
+2025-04-27 15:10:24,Server1,Restarted due to High CPU
+2025-04-27 15:10:26,Server1,Restarted due to High RAM
+2025-04-27 15:10:28,Server1,Restarted due to High Disk
+2025-04-27 15:10:30,Server3,Restarted due to High Disk
+2025-04-27 15:10:37,Server1,Restarted due to High RAM
+2025-04-27 15:10:39,Server2,Restarted due to High CPU
+2025-04-27 15:10:41,Server3,Restarted due to High CPU
+2025-04-27 15:10:48,Server1,Restarted due to High RAM
+2025-04-27 15:10:55,Server1,Restarted due to High CPU
+2025-04-27 15:10:57,Server2,Restarted due to High CPU
+2025-04-27 15:10:59,Server3,Restarted due to High Disk
+2025-04-27 15:11:06,Server2,Restarted due to High CPU
+2025-04-27 15:11:08,Server2,Restarted due to High Disk
+2025-04-27 15:11:10,Server3,Restarted due to High CPU
+2025-04-27 15:11:12,Server3,Restarted due to High RAM
+2025-04-27 15:11:19,Server1,Restarted due to High CPU
+2025-04-27 15:11:21,Server3,Restarted due to High RAM
+2025-04-27 15:11:38,Server1,Restarted due to High CPU
+2025-04-27 15:11:40,Server2,Restarted due to High CPU
+2025-04-27 15:11:47,Server1,Restarted due to High RAM
+2025-04-27 15:11:49,Server2,Restarted due to High Disk
+2025-04-27 15:11:51,Server3,Restarted due to High CPU
+2025-04-27 15:11:58,Server1,Restarted due to High CPU
+2025-04-27 15:12:00,Server1,Restarted due to High Disk
+2025-04-27 15:12:07,Server2,Restarted due to High CPU
+2025-04-27 15:12:14,Server3,Restarted due to High CPU
+2025-04-27 15:12:26,Server1,Restarted due to High RAM
+2025-04-27 15:12:28,Server1,Restarted due to High Disk
+2025-04-27 15:12:30,Server2,Restarted due to High RAM
+2025-04-27 15:12:37,Server3,Restarted due to High Disk
+2025-04-27 15:12:44,Server3,Restarted due to High Disk
+2025-04-27 15:12:51,Server1,Restarted due to High CPU
+2025-04-27 15:12:53,Server2,Restarted due to High CPU
+2025-04-27 15:12:55,Server2,Restarted due to High RAM
+2025-04-27 15:12:57,Server3,Restarted due to High Disk
+2025-04-27 15:13:04,Server1,Restarted due to High CPU
+2025-04-27 15:13:06,Server1,Restarted due to High RAM
+2025-04-27 15:13:08,Server3,Restarted due to High CPU
+2025-04-27 15:13:15,Server1,Restarted due to High CPU
+2025-04-27 15:13:17,Server1,Restarted due to High Disk
+2025-04-27 15:13:19,Server2,Restarted due to High Disk
+2025-04-27 15:13:26,Server2,Restarted due to High CPU
+2025-04-27 15:13:43,Server2,Restarted due to High CPU
+2025-04-27 15:13:45,Server3,Restarted due to High CPU
+2025-04-27 15:13:47,Server3,Restarted due to High RAM
+2025-04-27 15:13:54,Server1,Restarted due to High CPU
+2025-04-27 15:13:56,Server2,Restarted due to High Disk
+2025-04-27 15:13:58,Server3,Restarted due to High Disk
+2025-04-27 15:14:05,Server1,Restarted due to High CPU
+2025-04-27 15:14:07,Server2,Restarted due to High CPU
+2025-04-27 15:14:14,Server2,Restarted due to High CPU
+2025-04-27 15:14:16,Server2,Restarted due to High Disk
+2025-04-27 15:14:23,Server1,Restarted due to High CPU
+2025-04-27 15:14:25,Server3,Restarted due to High CPU
+2025-04-27 15:14:32,Server2,Restarted due to High CPU
+2025-04-27 15:14:44,Server2,Restarted due to High RAM
+2025-04-27 15:14:46,Server3,Restarted due to High CPU
+2025-04-27 15:14:48,Server3,Restarted due to High RAM
+2025-04-27 15:14:55,Server2,Restarted due to High CPU
+2025-04-27 15:14:57,Server3,Restarted due to High CPU
+2025-04-27 15:14:59,Server3,Restarted due to High RAM
+2025-04-27 15:15:06,Server1,Restarted due to High Disk
+2025-04-27 15:15:08,Server2,Restarted due to High CPU
+2025-04-27 15:15:15,Server1,Restarted due to High RAM
+2025-04-27 15:15:17,Server2,Restarted due to High CPU
+2025-04-27 15:15:19,Server3,Restarted due to High Disk
+2025-04-27 15:15:26,Server1,Restarted due to High RAM
+2025-04-27 15:15:33,Server1,Restarted due to High RAM
+2025-04-27 15:15:35,Server3,Restarted due to High RAM
+2025-04-27 15:15:42,Server3,Restarted due to High CPU
+2025-04-27 15:15:49,Server3,Restarted due to High RAM
+2025-04-27 15:15:56,Server1,Restarted due to High CPU
+2025-04-27 15:16:03,Server1,Restarted due to High Disk
+2025-04-27 15:16:05,Server2,Restarted due to High CPU
+2025-04-27 15:16:07,Server3,Restarted due to High Disk
+2025-04-27 15:16:15,Server3,Restarted due to High RAM
+2025-04-27 15:16:22,Server3,Restarted due to High Disk
+2025-04-27 15:16:29,Server3,Restarted due to High RAM
+2025-04-27 15:16:36,Server1,Restarted due to High CPU
+2025-04-27 15:16:48,Server3,Restarted due to High CPU
+2025-04-27 15:16:50,Server3,Restarted due to High RAM
+2025-04-27 15:16:57,Server1,Restarted due to High CPU
+2025-04-27 15:16:59,Server2,Restarted due to High CPU
+2025-04-27 15:17:11,Server2,Restarted due to High Disk
+2025-04-27 15:17:18,Server1,Restarted due to High Disk
+2025-04-27 15:17:20,Server3,Restarted due to High CPU
+2025-04-27 15:17:22,Server3,Restarted due to High Disk
+2025-04-27 15:17:29,Server1,Restarted due to High CPU
+2025-04-27 15:17:31,Server1,Restarted due to High Disk
+2025-04-27 15:17:33,Server3,Restarted due to High Disk
+2025-04-27 15:17:40,Server3,Restarted due to High Disk
+2025-04-27 15:17:47,Server1,Restarted due to High CPU
+2025-04-27 15:17:49,Server2,Restarted due to High RAM
+2025-04-27 15:17:56,Server1,Restarted due to High CPU
+2025-04-27 15:18:03,Server2,Restarted due to High CPU
+2025-04-27 15:18:05,Server2,Restarted due to High RAM
+2025-04-27 15:18:07,Server3,Restarted due to High CPU
+2025-04-27 15:18:14,Server1,Restarted due to High RAM
+2025-04-27 15:18:16,Server2,Restarted due to High CPU
+2025-04-27 15:18:23,Server1,Restarted due to High CPU
+2025-04-27 15:18:25,Server3,Restarted due to High CPU
+2025-04-27 15:18:37,Server1,Restarted due to High CPU
+2025-04-27 15:18:44,Server1,Restarted due to High CPU
+2025-04-27 15:18:46,Server1,Restarted due to High RAM
+2025-04-27 15:18:48,Server2,Restarted due to High CPU
+2025-04-27 15:18:50,Server2,Restarted due to High Disk
+2025-04-27 15:18:52,Server3,Restarted due to High RAM
+2025-04-27 15:19:09,Server1,Restarted due to High RAM
+2025-04-27 15:19:16,Server1,Restarted due to High CPU
+2025-04-27 15:19:18,Server2,Restarted due to High CPU
+2025-04-27 15:19:25,Server2,Restarted due to High CPU
+2025-04-27 15:19:27,Server3,Restarted due to High CPU
+2025-04-27 15:19:29,Server3,Restarted due to High RAM
+2025-04-27 15:19:36,Server3,Restarted due to High RAM
+2025-04-27 15:19:43,Server2,Restarted due to High RAM
+2025-04-27 15:19:50,Server3,Restarted due to High RAM
+2025-04-27 15:19:57,Server3,Restarted due to High CPU
+2025-04-27 15:20:04,Server2,Restarted due to High CPU
+2025-04-27 15:20:11,Server1,Restarted due to High CPU
+2025-04-27 15:20:13,Server2,Restarted due to High CPU
+2025-04-27 15:20:15,Server3,Restarted due to High CPU
+2025-04-27 15:20:27,Server1,Restarted due to High RAM
+2025-04-27 15:20:29,Server1,Restarted due to High Disk
+2025-04-27 15:20:31,Server2,Restarted due to High CPU
+2025-04-27 15:20:33,Server2,Restarted due to High Disk
+2025-04-27 15:20:35,Server3,Restarted due to High RAM
+2025-04-27 15:20:42,Server3,Restarted due to High Disk
+2025-04-27 15:20:49,Server1,Restarted due to High CPU
+2025-04-27 15:20:51,Server2,Restarted due to High RAM
+2025-04-27 15:20:53,Server3,Restarted due to High CPU
+2025-04-27 15:21:00,Server1,Restarted due to High Disk
+2025-04-27 15:21:02,Server3,Restarted due to High Disk
+2025-04-27 15:21:14,Server1,Restarted due to High CPU
+2025-04-27 15:21:21,Server2,Restarted due to High CPU
+2025-04-27 15:21:23,Server3,Restarted due to High Disk
+2025-04-27 15:21:30,Server1,Restarted due to High RAM
+2025-04-27 15:21:37,Server3,Restarted due to High RAM
+2025-04-27 15:21:44,Server2,Restarted due to High CPU
+2025-04-27 15:21:51,Server3,Restarted due to High RAM
+2025-04-27 15:21:58,Server2,Restarted due to High CPU
+2025-04-27 15:22:00,Server3,Restarted due to High CPU
+2025-04-27 15:22:07,Server2,Restarted due to High Disk
+2025-04-27 15:22:19,Server1,Restarted due to High CPU
+2025-04-27 15:22:21,Server1,Restarted due to High RAM
+2025-04-27 15:22:23,Server3,Restarted due to High CPU
+2025-04-27 15:22:25,Server3,Restarted due to High RAM
+2025-04-27 15:22:32,Server2,Restarted due to High RAM
+2025-04-27 15:22:44,Server2,Restarted due to High RAM
+2025-04-27 15:22:46,Server2,Restarted due to High Disk
+2025-04-27 15:22:48,Server3,Restarted due to High CPU
+2025-04-27 15:22:55,Server3,Restarted due to High RAM
+2025-04-27 15:23:02,Server1,Restarted due to High CPU
+2025-04-27 15:23:09,Server3,Restarted due to High RAM
+2025-04-27 15:23:16,Server1,Restarted due to High RAM
+2025-04-27 15:23:28,Server1,Restarted due to High CPU
+2025-04-27 15:23:30,Server1,Restarted due to High RAM
+2025-04-27 15:23:33,Server2,Restarted due to High CPU
+2025-04-27 15:23:35,Server3,Restarted due to High CPU
+2025-04-27 15:23:37,Server3,Restarted due to High RAM
+2025-04-27 15:23:39,Server3,Restarted due to High Disk
+2025-04-27 15:23:46,Server1,Restarted due to High CPU
+2025-04-27 15:23:48,Server2,Restarted due to High CPU
+2025-04-27 15:23:50,Server3,Restarted due to High CPU
+2025-04-27 15:23:57,Server2,Restarted due to High CPU
+2025-04-27 15:23:59,Server3,Restarted due to High Disk
+2025-04-27 15:24:06,Server1,Restarted due to High RAM
+2025-04-27 15:24:08,Server3,Restarted due to High RAM
+2025-04-27 15:24:15,Server2,Restarted due to High RAM
+2025-04-27 15:24:22,Server1,Restarted due to High RAM
+2025-04-27 15:24:24,Server1,Restarted due to High Disk
+2025-04-27 15:24:26,Server2,Restarted due to High RAM
+2025-04-27 15:24:28,Server3,Restarted due to High CPU
+2025-04-27 15:24:30,Server3,Restarted due to High RAM
+2025-04-27 15:24:37,Server1,Restarted due to High RAM
+2025-04-27 15:24:39,Server2,Restarted due to High CPU
+2025-04-27 15:24:46,Server1,Restarted due to High RAM
+2025-04-27 15:24:53,Server3,Restarted due to High RAM
+2025-04-27 15:25:00,Server1,Restarted due to High CPU
+2025-04-27 15:25:02,Server2,Restarted due to High RAM
+2025-04-27 15:25:04,Server3,Restarted due to High CPU
+2025-04-27 15:25:11,Server1,Restarted due to High Disk
+2025-04-27 15:25:13,Server2,Restarted due to High CPU
+2025-04-27 15:25:20,Server3,Restarted due to High RAM
+2025-04-27 15:25:27,Server1,Restarted due to High CPU
+2025-04-27 15:25:34,Server1,Restarted due to High CPU
+2025-04-27 15:25:36,Server2,Restarted due to High CPU
+2025-04-27 15:25:38,Server3,Restarted due to High RAM
+2025-04-27 15:25:45,Server1,Restarted due to High RAM
+2025-04-27 15:25:47,Server2,Restarted due to High RAM
+2025-04-27 15:25:49,Server3,Restarted due to High Disk
+2025-04-27 15:25:56,Server1,Restarted due to High Disk
+2025-04-27 15:25:58,Server3,Restarted due to High CPU
+2025-04-27 15:26:00,Server3,Restarted due to High RAM
+2025-04-27 15:26:07,Server2,Restarted due to High RAM
+2025-04-27 15:26:19,Server1,Restarted due to High CPU
+2025-04-27 15:26:21,Server2,Restarted due to High RAM
+2025-04-27 15:26:28,Server2,Restarted due to High CPU
+2025-04-27 15:26:30,Server3,Restarted due to High RAM
+2025-04-27 15:26:37,Server1,Restarted due to High CPU
+2025-04-27 15:26:39,Server2,Restarted due to High Disk
+2025-04-27 15:26:51,Server2,Restarted due to High CPU
+2025-04-27 15:26:53,Server3,Restarted due to High CPU
+2025-04-27 15:27:00,Server2,Restarted due to High RAM
+2025-04-27 15:27:07,Server2,Restarted due to High Disk
+2025-04-27 15:27:09,Server3,Restarted due to High RAM
+2025-04-27 15:27:11,Server3,Restarted due to High Disk
+2025-04-27 15:27:18,Server1,Restarted due to High CPU
+2025-04-27 15:27:25,Server1,Restarted due to High CPU
+2025-04-27 15:27:27,Server2,Restarted due to High CPU
+2025-04-27 15:27:29,Server3,Restarted due to High RAM
+2025-04-27 15:27:36,Server1,Restarted due to High CPU
+2025-04-27 15:27:43,Server1,Restarted due to High RAM
+2025-04-27 15:27:45,Server1,Restarted due to High Disk
+2025-04-27 15:27:47,Server3,Restarted due to High CPU
+2025-04-27 15:27:54,Server2,Restarted due to High RAM
+2025-04-27 15:28:01,Server2,Restarted due to High CPU
+2025-04-27 15:28:08,Server1,Restarted due to High CPU
+2025-04-27 15:28:10,Server1,Restarted due to High RAM
+2025-04-27 15:28:12,Server2,Restarted due to High CPU
+2025-04-27 15:28:14,Server3,Restarted due to High CPU
+2025-04-27 15:28:26,Server2,Restarted due to High CPU
+2025-04-27 15:28:33,Server1,Restarted due to High RAM
+2025-04-27 15:28:40,Server2,Restarted due to High CPU
+2025-04-27 15:28:42,Server3,Restarted due to High CPU
+2025-04-27 15:28:54,Server2,Restarted due to High CPU
+2025-04-27 15:28:56,Server3,Restarted due to High Disk
+2025-04-27 15:29:03,Server2,Restarted due to High CPU
+2025-04-27 15:29:05,Server2,Restarted due to High Disk
+2025-04-27 15:29:12,Server1,Restarted due to High CPU
+2025-04-27 15:29:14,Server1,Restarted due to High Disk
+2025-04-27 15:29:16,Server2,Restarted due to High CPU
+2025-04-27 15:29:23,Server3,Restarted due to High Disk
+2025-04-27 15:29:30,Server2,Restarted due to High CPU
+2025-04-27 15:29:32,Server3,Restarted due to High CPU
+2025-04-27 15:29:40,Server1,Restarted due to High Disk
+2025-04-27 15:29:42,Server3,Restarted due to High CPU
+2025-04-27 15:29:49,Server1,Restarted due to High RAM
+2025-04-27 15:29:51,Server2,Restarted due to High CPU
+2025-04-27 15:29:53,Server3,Restarted due to High CPU
+2025-04-27 15:30:00,Server1,Restarted due to High RAM
+2025-04-27 15:30:07,Server1,Restarted due to High Disk
+2025-04-27 15:30:09,Server2,Restarted due to High CPU
+2025-04-27 15:30:16,Server2,Restarted due to High CPU
+2025-04-27 15:30:18,Server2,Restarted due to High RAM
+2025-04-27 15:30:20,Server3,Restarted due to High RAM
+2025-04-27 15:30:27,Server2,Restarted due to High CPU
+2025-04-27 15:30:34,Server2,Restarted due to High CPU
+2025-04-27 15:30:36,Server3,Restarted due to High RAM
+2025-04-27 15:30:43,Server2,Restarted due to High Disk
+2025-04-27 15:30:50,Server2,Restarted due to High RAM
+2025-04-27 15:30:57,Server1,Restarted due to High Disk
+2025-04-27 15:31:04,Server1,Restarted due to High CPU
+2025-04-27 15:31:06,Server3,Restarted due to High CPU
+2025-04-27 15:31:08,Server3,Restarted due to High RAM
+2025-04-27 15:31:15,Server1,Restarted due to High CPU
+2025-04-27 15:31:22,Server2,Restarted due to High Disk
+2025-04-27 15:31:24,Server3,Restarted due to High RAM
+2025-04-27 15:31:31,Server1,Restarted due to High RAM
+2025-04-27 15:31:38,Server2,Restarted due to High CPU
+2025-04-27 15:31:45,Server1,Restarted due to High RAM
+2025-04-27 15:31:47,Server2,Restarted due to High RAM
+2025-04-27 15:31:59,Server1,Restarted due to High CPU
+2025-04-27 15:32:01,Server1,Restarted due to High RAM
+2025-04-27 15:32:08,Server1,Restarted due to High RAM
+2025-04-27 15:32:10,Server3,Restarted due to High CPU
+2025-04-27 15:32:17,Server1,Restarted due to High RAM
+2025-04-27 15:32:24,Server2,Restarted due to High Disk
+2025-04-27 15:32:26,Server3,Restarted due to High RAM
+2025-04-27 15:32:33,Server3,Restarted due to High RAM
+2025-04-27 15:32:40,Server1,Restarted due to High Disk
+2025-04-27 15:32:42,Server2,Restarted due to High CPU
+2025-04-27 15:32:54,Server1,Restarted due to High CPU
+2025-04-27 15:32:56,Server1,Restarted due to High RAM
+2025-04-27 15:32:58,Server2,Restarted due to High CPU
+2025-04-27 15:33:10,Server1,Restarted due to High CPU
+2025-04-27 15:33:12,Server3,Restarted due to High CPU
+2025-04-27 15:33:19,Server3,Restarted due to High CPU
+2025-04-27 15:33:26,Server1,Restarted due to High CPU
+2025-04-27 15:33:33,Server3,Restarted due to High Disk
+2025-04-27 15:33:40,Server3,Restarted due to High RAM
+2025-04-27 15:33:47,Server1,Restarted due to High Disk
+2025-04-27 15:33:49,Server2,Restarted due to High RAM
+2025-04-27 15:33:56,Server2,Restarted due to High RAM
+2025-04-27 15:34:03,Server1,Restarted due to High RAM
+2025-04-27 15:34:05,Server3,Restarted due to High CPU
+2025-04-27 15:34:12,Server3,Restarted due to High CPU
+2025-04-27 15:34:24,Server1,Restarted due to High CPU
+2025-04-27 15:34:26,Server2,Restarted due to High CPU
+2025-04-27 15:34:28,Server2,Restarted due to High Disk
+2025-04-27 15:34:30,Server3,Restarted due to High CPU
+2025-04-27 15:34:32,Server3,Restarted due to High RAM
+2025-04-27 15:34:39,Server3,Restarted due to High CPU
+2025-04-27 15:34:46,Server2,Restarted due to High RAM
+2025-04-27 15:34:48,Server3,Restarted due to High Disk
+2025-04-27 15:34:55,Server1,Restarted due to High CPU
+2025-04-27 15:34:57,Server3,Restarted due to High RAM
+2025-04-27 15:35:09,Server1,Restarted due to High CPU
+2025-04-27 15:35:11,Server3,Restarted due to High Disk
+2025-04-27 15:35:23,Server2,Restarted due to High Disk
+2025-04-27 15:35:25,Server3,Restarted due to High CPU
+2025-04-27 15:35:32,Server1,Restarted due to High Disk
+2025-04-27 15:35:34,Server2,Restarted due to High Disk
+2025-04-27 15:35:41,Server2,Restarted due to High RAM
+2025-04-27 15:35:43,Server3,Restarted due to High CPU
+2025-04-27 15:35:50,Server2,Restarted due to High RAM
+2025-04-27 15:35:57,Server1,Restarted due to High Disk
+2025-04-27 15:36:04,Server1,Restarted due to High Disk
+2025-04-27 15:36:06,Server2,Restarted due to High Disk
+2025-04-27 15:36:08,Server3,Restarted due to High CPU
+2025-04-27 15:36:15,Server2,Restarted due to High Disk
+2025-04-27 15:36:27,Server3,Restarted due to High CPU
+2025-04-27 15:36:34,Server1,Restarted due to High RAM
+2025-04-27 15:36:36,Server2,Restarted due to High CPU
+2025-04-27 15:36:43,Server1,Restarted due to High RAM
+2025-04-27 15:36:50,Server2,Restarted due to High RAM
+2025-04-27 15:36:52,Server3,Restarted due to High CPU
+2025-04-27 15:36:54,Server3,Restarted due to High RAM
+2025-04-27 15:37:01,Server1,Restarted due to High CPU
+2025-04-27 15:37:14,Server1,Restarted due to High RAM
+2025-04-27 15:37:21,Server2,Restarted due to High Disk
+2025-04-27 15:37:28,Server2,Restarted due to High RAM
+2025-04-27 15:37:45,Server3,Restarted due to High CPU
+2025-04-27 15:37:52,Server3,Restarted due to High CPU
+2025-04-27 15:37:59,Server1,Restarted due to High CPU
+2025-04-27 15:38:06,Server3,Restarted due to High CPU
+2025-04-27 15:38:08,Server3,Restarted due to High RAM
+2025-04-27 15:38:15,Server1,Restarted due to High CPU
+2025-04-27 15:38:22,Server1,Restarted due to High RAM
+2025-04-27 15:38:29,Server2,Restarted due to High Disk
+2025-04-27 15:38:36,Server3,Restarted due to High CPU
+2025-04-27 15:38:48,Server3,Restarted due to High RAM
+2025-04-27 15:38:55,Server1,Restarted due to High CPU
+2025-04-27 15:39:02,Server3,Restarted due to High CPU
+2025-04-27 15:39:09,Server1,Restarted due to High RAM
+2025-04-27 15:39:11,Server2,Restarted due to High RAM
+2025-04-27 15:39:28,Server1,Restarted due to High RAM
+2025-04-27 15:39:30,Server2,Restarted due to High CPU
+2025-04-27 15:39:32,Server3,Restarted due to High CPU
+2025-04-27 15:39:44,Server1,Restarted due to High CPU
+2025-04-27 15:39:46,Server2,Restarted due to High CPU
+2025-04-27 15:39:53,Server1,Restarted due to High CPU
+2025-04-27 15:39:55,Server1,Restarted due to High RAM
+2025-04-27 15:39:57,Server3,Restarted due to High Disk
+2025-04-27 15:40:04,Server1,Restarted due to High CPU
+2025-04-27 15:40:06,Server2,Restarted due to High RAM
+2025-04-27 15:40:08,Server3,Restarted due to High CPU
+2025-04-27 15:40:15,Server1,Restarted due to High Disk
+2025-04-27 15:40:17,Server3,Restarted due to High CPU
+2025-04-27 15:40:19,Server3,Restarted due to High Disk
+2025-04-27 15:40:26,Server1,Restarted due to High CPU
+2025-04-27 15:40:33,Server1,Restarted due to High CPU
+2025-04-27 15:40:35,Server2,Restarted due to High CPU
+2025-04-27 15:40:37,Server2,Restarted due to High RAM
+2025-04-27 15:40:44,Server1,Restarted due to High RAM
+2025-04-27 15:40:46,Server2,Restarted due to High Disk
+2025-04-27 15:40:53,Server3,Restarted due to High CPU
+2025-04-27 15:40:55,Server3,Restarted due to High Disk
+2025-04-27 15:41:02,Server2,Restarted due to High RAM
+2025-04-27 15:41:09,Server1,Restarted due to High CPU
+2025-04-27 15:41:11,Server1,Restarted due to High RAM
+2025-04-27 15:41:13,Server2,Restarted due to High RAM
+2025-04-27 15:41:20,Server3,Restarted due to High CPU
+2025-04-27 15:41:27,Server1,Restarted due to High CPU
+2025-04-27 15:41:29,Server2,Restarted due to High CPU
+2025-04-27 15:41:31,Server3,Restarted due to High CPU
+2025-04-27 15:41:33,Server3,Restarted due to High RAM
+2025-04-27 15:41:40,Server1,Restarted due to High CPU
+2025-04-27 15:41:42,Server2,Restarted due to High RAM
+2025-04-27 15:41:49,Server3,Restarted due to High CPU
+2025-04-27 15:41:56,Server2,Restarted due to High CPU
+2025-04-27 15:41:58,Server3,Restarted due to High CPU
+2025-04-27 15:42:05,Server1,Restarted due to High CPU
+2025-04-27 15:42:12,Server2,Restarted due to High Disk
+2025-04-27 15:42:34,Server1,Restarted due to High RAM
+2025-04-27 15:42:36,Server2,Restarted due to High RAM
+2025-04-27 15:42:43,Server1,Restarted due to High CPU
+2025-04-27 15:42:45,Server2,Restarted due to High CPU
+2025-04-27 15:42:52,Server2,Restarted due to High Disk
+2025-04-27 15:42:59,Server1,Restarted due to High Disk
+2025-04-27 15:43:06,Server1,Restarted due to High CPU
+2025-04-27 15:43:08,Server2,Restarted due to High CPU
+2025-04-27 15:43:10,Server3,Restarted due to High CPU
+2025-04-27 15:43:17,Server2,Restarted due to High Disk
+2025-04-27 15:43:25,Server1,Restarted due to High CPU
+2025-04-27 15:43:32,Server2,Restarted due to High Disk
+2025-04-27 15:43:44,Server2,Restarted due to High CPU
+2025-04-27 15:43:46,Server2,Restarted due to High Disk
+2025-04-27 15:43:53,Server2,Restarted due to High RAM
+2025-04-27 15:43:55,Server3,Restarted due to High CPU
+2025-04-27 15:43:57,Server3,Restarted due to High RAM
+2025-04-27 15:44:04,Server3,Restarted due to High CPU
+2025-04-27 15:44:11,Server2,Restarted due to High CPU
+2025-04-27 15:44:13,Server3,Restarted due to High RAM
+2025-04-27 15:44:20,Server2,Restarted due to High Disk
+2025-04-27 15:44:22,Server3,Restarted due to High CPU
+2025-04-27 15:44:24,Server3,Restarted due to High Disk
+2025-04-27 15:44:31,Server3,Restarted due to High RAM
+2025-04-27 15:44:38,Server1,Restarted due to High RAM
+2025-04-27 15:44:40,Server2,Restarted due to High CPU
+2025-04-27 15:44:47,Server3,Restarted due to High Disk
+2025-04-27 15:44:54,Server1,Restarted due to High RAM
+2025-04-27 15:44:56,Server2,Restarted due to High CPU
+2025-04-27 15:44:58,Server3,Restarted due to High Disk
+2025-04-27 15:45:05,Server1,Restarted due to High Disk
+2025-04-27 15:45:12,Server3,Restarted due to High CPU
+2025-04-27 15:45:14,Server3,Restarted due to High Disk
+2025-04-27 15:45:21,Server3,Restarted due to High CPU
+2025-04-27 15:45:23,Server3,Restarted due to High RAM
+2025-04-27 15:45:30,Server3,Restarted due to High CPU
+2025-04-27 15:45:37,Server1,Restarted due to High CPU
+2025-04-27 15:45:44,Server2,Restarted due to High CPU
+2025-04-27 15:45:51,Server1,Restarted due to High CPU
+2025-04-27 15:45:58,Server1,Restarted due to High Disk
+2025-04-27 15:46:00,Server3,Restarted due to High CPU
+2025-04-27 15:46:02,Server3,Restarted due to High RAM
+2025-04-27 15:46:09,Server3,Restarted due to High CPU
+2025-04-27 15:46:16,Server1,Restarted due to High RAM
+2025-04-27 15:46:28,Server2,Restarted due to High CPU
+2025-04-27 15:46:35,Server1,Restarted due to High RAM
+2025-04-27 15:46:37,Server2,Restarted due to High CPU
+2025-04-27 15:46:39,Server2,Restarted due to High Disk
+2025-04-27 15:46:41,Server3,Restarted due to High CPU
+2025-04-27 15:46:48,Server2,Restarted due to High CPU
+2025-04-27 15:46:50,Server3,Restarted due to High CPU
+2025-04-27 15:46:57,Server1,Restarted due to High CPU
+2025-04-27 15:46:59,Server2,Restarted due to High CPU
+2025-04-27 15:47:06,Server2,Restarted due to High CPU
+2025-04-27 15:47:08,Server3,Restarted due to High CPU
+2025-04-27 15:47:15,Server3,Restarted due to High CPU
+2025-04-27 15:47:22,Server2,Restarted due to High RAM
+2025-04-27 15:47:29,Server2,Restarted due to High CPU
+2025-04-27 15:47:31,Server3,Restarted due to High CPU
+2025-04-27 15:47:38,Server2,Restarted due to High RAM
+2025-04-27 15:47:40,Server3,Restarted due to High CPU
+2025-04-27 15:47:47,Server1,Restarted due to High Disk
+2025-04-27 15:47:49,Server2,Restarted due to High Disk
+2025-04-27 15:47:51,Server3,Restarted due to High RAM
+2025-04-27 15:47:58,Server2,Restarted due to High CPU
+2025-04-27 15:48:05,Server1,Restarted due to High Disk
+2025-04-27 15:48:07,Server3,Restarted due to High CPU
+2025-04-27 15:48:09,Server3,Restarted due to High RAM
+2025-04-27 15:48:16,Server3,Restarted due to High RAM
+2025-04-27 15:48:23,Server1,Restarted due to High CPU
+2025-04-27 15:48:25,Server2,Restarted due to High CPU
+2025-04-27 15:48:27,Server3,Restarted due to High CPU
+2025-04-27 15:48:29,Server3,Restarted due to High RAM
+2025-04-27 15:48:36,Server1,Restarted due to High Disk
+2025-04-27 15:48:38,Server3,Restarted due to High RAM
+2025-04-27 15:48:45,Server2,Restarted due to High Disk
+2025-04-27 15:48:47,Server3,Restarted due to High CPU
+2025-04-27 15:48:49,Server3,Restarted due to High Disk
+2025-04-27 15:48:56,Server1,Restarted due to High CPU
+2025-04-27 15:48:58,Server3,Restarted due to High CPU
+2025-04-27 15:49:00,Server3,Restarted due to High RAM
+2025-04-27 15:49:07,Server2,Restarted due to High CPU
+2025-04-27 15:49:14,Server2,Restarted due to High CPU
+2025-04-27 15:49:21,Server1,Restarted due to High CPU
+2025-04-27 15:49:23,Server1,Restarted due to High RAM
+2025-04-27 15:49:25,Server1,Restarted due to High Disk
+2025-04-27 15:49:27,Server2,Restarted due to High Disk
+2025-04-27 15:49:34,Server2,Restarted due to High Disk
+2025-04-27 15:49:36,Server3,Restarted due to High RAM
+2025-04-27 15:49:44,Server3,Restarted due to High CPU
+2025-04-27 15:49:51,Server3,Restarted due to High CPU
+2025-04-27 15:50:03,Server1,Restarted due to High CPU
+2025-04-27 15:50:05,Server1,Restarted due to High Disk
+2025-04-27 15:50:12,Server2,Restarted due to High RAM
+2025-04-27 15:50:19,Server1,Restarted due to High RAM
+2025-04-27 15:50:21,Server3,Restarted due to High CPU
+2025-04-27 15:50:23,Server3,Restarted due to High RAM
+2025-04-27 15:50:35,Server2,Restarted due to High RAM
+2025-04-27 15:50:42,Server1,Restarted due to High CPU
+2025-04-27 15:50:44,Server1,Restarted due to High RAM
+2025-04-27 15:50:51,Server2,Restarted due to High Disk
+2025-04-27 15:50:53,Server3,Restarted due to High CPU
+2025-04-27 15:51:00,Server3,Restarted due to High Disk
+2025-04-27 15:51:07,Server1,Restarted due to High CPU
+2025-04-27 15:51:19,Server1,Restarted due to High CPU
+2025-04-27 15:51:21,Server1,Restarted due to High RAM
+2025-04-27 15:51:23,Server3,Restarted due to High RAM
+2025-04-27 16:02:47,Server3,Restarted due to High RAM
+2025-04-27 16:02:54,Server3,Restarted due to High RAM
